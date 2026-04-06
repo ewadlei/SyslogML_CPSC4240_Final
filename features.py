@@ -4,7 +4,7 @@ from sklearn.preprocessing import OneHotEncoder
 from scipy.sparse import hstack, csr_matrix
 import time
 from collections import defaultdict
-
+import numpy as np
 
 failed_attempts = defaultdict(list)
 process_activity = defaultdict(list)
@@ -68,7 +68,7 @@ def combine_features(X_text, X_proc, logs):
         behavior_features.append(bf)
 
     behavior_features = np.array(behavior_features, dtype = float)
-    behavior_features *= 10
+    behavior_features *= 100
     X_behavior = csr_matrix(behavior_features)
 
     return hstack([X_text, X_proc, X_behavior])

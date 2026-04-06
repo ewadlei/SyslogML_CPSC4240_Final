@@ -43,7 +43,7 @@ while True:
         continue
         
     parsed = parse_log(line)
-    print(parsed)
+    print("RAW:", line)
     if not parsed:
         continue
     
