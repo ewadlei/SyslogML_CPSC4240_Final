@@ -1,0 +1,362 @@
+2026-04-05T01:15:38.771669+00:00 linux CRON[8895]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T01:15:38.773460+00:00 linux CRON[8895]: pam_unix(cron:session): session closed for user root
+2026-04-05T01:15:40.726690+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/dd if=/dev/zero of=zero_ex bs=1M count=10
+2026-04-05T01:15:40.728923+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:15:40.737539+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:17:01.783420+00:00 linux CRON[8910]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T01:17:01.787397+00:00 linux CRON[8910]: pam_unix(cron:session): session closed for user root
+2026-04-05T01:23:37.420506+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/vi /etc/systemd/journal.conf
+2026-04-05T01:23:37.421636+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:23:42.271717+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:23:45.193309+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/vi /etc/systemd/journald.conf
+2026-04-05T01:23:45.195448+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:25:01.806427+00:00 linux CRON[8962]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T01:25:01.812160+00:00 linux CRON[8962]: pam_unix(cron:session): session closed for user root
+2026-04-05T01:28:37.260721+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:29:05.357748+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/vi /etc/systemd/journald.conf
+2026-04-05T01:29:05.358569+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:35:01.838270+00:00 linux CRON[8990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T01:35:01.842657+00:00 linux CRON[8990]: pam_unix(cron:session): session closed for user root
+2026-04-05T01:38:21.536226+00:00 linux systemd-logind[858]: Watching system buttons on /dev/input/event1 (VirtualBox USB Keyboard)
+2026-04-05T01:49:51.430837+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-05T01:54:26.219538+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:55:01.996114+00:00 linux CRON[9213]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T01:55:02.007232+00:00 linux CRON[9213]: pam_unix(cron:session): session closed for user root
+2026-04-05T01:55:35.922778+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --disk-usage
+2026-04-05T01:55:35.923793+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:55:35.972544+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:56:18.901417+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --rotate
+2026-04-05T01:56:18.901724+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:56:18.930702+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:56:20.853587+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --disk-usage
+2026-04-05T01:56:20.855299+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:56:20.863245+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:56:25.526120+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --rotate
+2026-04-05T01:56:25.526796+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:56:25.554505+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:56:26.544177+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --disk-usage
+2026-04-05T01:56:26.545980+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:56:26.552979+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:56:41.804392+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --rotate
+2026-04-05T01:56:41.804553+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:56:41.830561+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T01:56:59.210488+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --vacuum-size=100M
+2026-04-05T01:56:59.210671+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T01:56:59.234890+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T02:00:01.929762+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/journalctl --disk-usage
+2026-04-05T02:00:01.931687+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T02:00:01.937967+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T02:05:01.019167+00:00 linux CRON[9268]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T02:05:01.023493+00:00 linux CRON[9268]: pam_unix(cron:session): session closed for user root
+2026-04-05T02:14:02.358257+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-05T02:15:01.041603+00:00 linux CRON[9390]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T02:15:01.046554+00:00 linux CRON[9390]: pam_unix(cron:session): session closed for user root
+2026-04-05T02:16:03.898617+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/find /tmp -type p
+2026-04-05T02:16:03.901190+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T02:16:03.911865+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T02:16:06.557204+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/find /tmp -type p
+2026-04-05T02:16:06.558840+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T02:16:06.563589+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T02:16:11.688659+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/find /run -type p
+2026-04-05T02:16:11.691282+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T02:16:11.697095+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T02:17:01.058325+00:00 linux CRON[9413]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T02:17:01.064315+00:00 linux CRON[9413]: pam_unix(cron:session): session closed for user root
+2026-04-05T02:23:50.747891+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/mnt/disk ; USER=root ; COMMAND=/usr/bin/find /run -type s
+2026-04-05T02:23:50.750514+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T02:23:50.758848+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T02:25:01.095394+00:00 linux CRON[9428]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T02:25:01.099706+00:00 linux CRON[9428]: pam_unix(cron:session): session closed for user root
+2026-04-05T02:35:01.125068+00:00 linux CRON[9451]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T02:35:01.129417+00:00 linux CRON[9451]: pam_unix(cron:session): session closed for user root
+2026-04-05T02:45:01.152775+00:00 linux CRON[9471]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T02:45:01.157433+00:00 linux CRON[9471]: pam_unix(cron:session): session closed for user root
+2026-04-05T20:56:30.508813+00:00 linux polkitd[833]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-05T20:56:30.516074+00:00 linux polkitd[833]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-05T20:56:30.521841+00:00 linux polkitd[833]: Finished loading, compiling and executing 16 rules
+2026-04-05T20:56:30.548881+00:00 linux polkitd[833]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-04-05T20:56:30.890734+00:00 linux systemd-logind[846]: New seat seat0.
+2026-04-05T20:56:30.909940+00:00 linux systemd-logind[846]: Watching system buttons on /dev/input/event0 (VirtualBox USB Keyboard)
+2026-04-05T20:56:30.913266+00:00 linux systemd-logind[846]: Watching system buttons on /dev/input/event2 (gpio-keys)
+2026-04-05T20:58:40.105649+00:00 linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=122) by (uid=0)
+2026-04-05T20:58:40.153084+00:00 linux systemd-logind[846]: New session c1 of user gdm.
+2026-04-05T20:58:40.169101+00:00 linux (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=122) by gdm(uid=0)
+2026-04-05T20:58:41.844291+00:00 linux polkitd[833]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-04-05T20:59:05.223491+00:00 linux dbus-daemon[827]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-04-05T20:59:21.386147+00:00 linux gdm-password]: gkr-pam: unable to locate daemon control file
+2026-04-05T20:59:21.393916+00:00 linux gdm-password]: gkr-pam: stashed password to try later in open session
+2026-04-05T20:59:21.399161+00:00 linux gdm-password]: pam_unix(gdm-password:session): session opened for user ewadlei(uid=1000) by ewadlei(uid=0)
+2026-04-05T20:59:21.419123+00:00 linux systemd-logind[846]: New session 2 of user ewadlei.
+2026-04-05T20:59:21.440469+00:00 linux (systemd): pam_unix(systemd-user:session): session opened for user ewadlei(uid=1000) by ewadlei(uid=0)
+2026-04-05T20:59:21.703627+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-05T20:59:21.926072+00:00 linux gnome-keyring-daemon[2737]: The Secret Service was already initialized
+2026-04-05T20:59:21.933140+00:00 linux gnome-keyring-daemon[2881]: discover_other_daemon: 1
+2026-04-05T20:59:21.960059+00:00 linux gnome-keyring-daemon[2880]: discover_other_daemon: 1
+2026-04-05T20:59:21.966124+00:00 linux gnome-keyring-daemon[2737]: The PKCS#11 component was already initialized
+2026-04-05T20:59:21.970860+00:00 linux gnome-keyring-daemon[2885]: discover_other_daemon: 1
+2026-04-05T20:59:22.968919+00:00 linux polkitd[833]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-04-05T20:59:23.490260+00:00 linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-04-05T20:59:23.525108+00:00 linux systemd-logind[846]: Session c1 logged out. Waiting for processes to exit.
+2026-04-05T20:59:23.553873+00:00 linux polkitd[833]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-04-05T20:59:23.563159+00:00 linux systemd-logind[846]: Removed session c1.
+2026-04-05T20:59:49.728547+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/apt update
+2026-04-05T20:59:49.738253+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T20:59:55.874288+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T21:00:25.025237+00:00 linux pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:00:25.028627+00:00 linux pkexec[4208]: ewadlei: Executing command [USER=root] [TTY=unknown] [CWD=/home/ewadlei] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-05T21:00:36.273095+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/apt install python3-pip
+2026-04-05T21:00:36.283679+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:01:43.081985+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T21:03:24.168763+00:00 linux pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:03:24.173354+00:00 linux pkexec[4589]: ewadlei: Executing command [USER=root] [TTY=unknown] [CWD=/home/ewadlei] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-05T21:04:57.233175+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/apt install python3-venv
+2026-04-05T21:04:57.237904+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:05:01.960919+00:00 linux CRON[4752]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:05:01.965874+00:00 linux CRON[4752]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:05:03.361601+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T21:06:24.104295+00:00 linux pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:06:24.107414+00:00 linux pkexec[4895]: ewadlei: Executing command [USER=root] [TTY=unknown] [CWD=/home/ewadlei] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-05T21:09:13.984819+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/head syslog
+2026-04-05T21:09:13.990096+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:09:13.994247+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T21:15:01.980126+00:00 linux CRON[4964]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:15:01.992264+00:00 linux CRON[4964]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:17:01.995147+00:00 linux CRON[4968]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:17:02.008705+00:00 linux CRON[4968]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:25:01.027279+00:00 linux CRON[5020]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:25:01.040674+00:00 linux CRON[5020]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:30:01.048177+00:00 linux CRON[5078]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:30:01.062000+00:00 linux CRON[5078]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:32:23.475486+00:00 linux dbus-daemon[827]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-04-05T21:33:23.983845+00:00 linux pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T21:33:23.988063+00:00 linux pkexec[13861]: ewadlei: Executing command [USER=root] [TTY=unknown] [CWD=/home/ewadlei] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-05T21:35:01.063465+00:00 linux CRON[13887]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:35:01.076477+00:00 linux CRON[13887]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:45:01.099607+00:00 linux CRON[13958]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:45:01.110760+00:00 linux CRON[13958]: pam_unix(cron:session): session closed for user root
+2026-04-05T21:55:01.136935+00:00 linux CRON[13966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T21:55:01.149133+00:00 linux CRON[13966]: pam_unix(cron:session): session closed for user root
+2026-04-05T22:30:01.314659+00:00 linux CRON[13990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T22:30:01.325642+00:00 linux CRON[13990]: pam_unix(cron:session): session closed for user root
+2026-04-05T22:35:01.338701+00:00 linux CRON[13997]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T22:35:01.350042+00:00 linux CRON[13997]: pam_unix(cron:session): session closed for user root
+2026-04-05T22:45:01.365675+00:00 linux CRON[14049]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T22:45:01.381356+00:00 linux CRON[14049]: pam_unix(cron:session): session closed for user root
+2026-04-05T22:55:01.413506+00:00 linux CRON[14058]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T22:55:01.430928+00:00 linux CRON[14058]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:05:01.446048+00:00 linux CRON[14066]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:05:01.454718+00:00 linux CRON[14066]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:15:01.470305+00:00 linux CRON[14074]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:15:01.481823+00:00 linux CRON[14074]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:17:01.490996+00:00 linux CRON[14077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:17:01.502589+00:00 linux CRON[14077]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:25:01.529400+00:00 linux CRON[14085]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:25:01.551352+00:00 linux CRON[14085]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:30:01.552141+00:00 linux CRON[14089]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:30:01.573574+00:00 linux CRON[14089]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:32:22.283963+00:00 linux gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=ewadlei uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ewadlei
+2026-04-05T23:32:28.286215+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-05T23:35:01.583237+00:00 linux CRON[14232]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:35:01.592282+00:00 linux CRON[14232]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:41:36.250274+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/head syslog
+2026-04-05T23:41:36.260284+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-05T23:41:36.263211+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-05T23:45:01.609698+00:00 linux CRON[14310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:45:01.621160+00:00 linux CRON[14310]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:55:01.628699+00:00 linux CRON[14348]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:55:01.634970+00:00 linux CRON[14348]: pam_unix(cron:session): session closed for user root
+2026-04-05T23:59:01.643418+00:00 linux CRON[14373]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-05T23:59:01.651980+00:00 linux CRON[14373]: pam_unix(cron:session): session closed for user root
+2026-04-06T00:00:59.640989+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/sbin/usermod -aG adm ewadlei
+2026-04-06T00:00:59.648487+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T00:00:59.671690+00:00 linux usermod[14479]: add 'ewadlei' to group 'adm'
+2026-04-06T00:00:59.676781+00:00 linux usermod[14479]: add 'ewadlei' to shadow group 'adm'
+2026-04-06T00:00:59.680108+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T00:01:11.594447+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/sbin/usermod -aG adm
+2026-04-06T00:01:11.611679+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T00:01:11.615384+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T00:02:09.306326+00:00 linux systemd-logind[863]: New seat seat0.
+2026-04-06T00:02:09.306328+00:00 linux systemd-logind[863]: Watching system buttons on /dev/input/event0 (VirtualBox USB Keyboard)
+2026-04-06T00:02:09.306329+00:00 linux systemd-logind[863]: Watching system buttons on /dev/input/event2 (gpio-keys)
+2026-04-06T00:02:09.308051+00:00 linux polkitd[852]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-06T00:02:09.308227+00:00 linux polkitd[852]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-06T00:02:09.316920+00:00 linux polkitd[852]: Finished loading, compiling and executing 16 rules
+2026-04-06T00:02:09.317879+00:00 linux polkitd[852]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-04-06T00:04:21.018411+00:00 linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=122) by (uid=0)
+2026-04-06T00:04:21.024916+00:00 linux systemd-logind[863]: New session c1 of user gdm.
+2026-04-06T00:04:21.042147+00:00 linux (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=122) by gdm(uid=0)
+2026-04-06T00:04:22.248421+00:00 linux polkitd[852]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-04-06T00:04:37.762946+00:00 linux gdm-password]: gkr-pam: unable to locate daemon control file
+2026-04-06T00:04:37.763086+00:00 linux gdm-password]: gkr-pam: stashed password to try later in open session
+2026-04-06T00:04:37.776018+00:00 linux gdm-password]: pam_unix(gdm-password:session): session opened for user ewadlei(uid=1000) by ewadlei(uid=0)
+2026-04-06T00:04:37.789186+00:00 linux systemd-logind[863]: New session 2 of user ewadlei.
+2026-04-06T00:04:37.805518+00:00 linux (systemd): pam_unix(systemd-user:session): session opened for user ewadlei(uid=1000) by ewadlei(uid=0)
+2026-04-06T00:04:37.946276+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-06T00:04:38.123525+00:00 linux gnome-keyring-daemon[1860]: discover_other_daemon: 1
+2026-04-06T00:04:38.123851+00:00 linux gnome-keyring-daemon[1727]: The PKCS#11 component was already initialized
+2026-04-06T00:04:38.123906+00:00 linux gnome-keyring-daemon[1727]: The Secret Service was already initialized
+2026-04-06T00:04:38.124172+00:00 linux gnome-keyring-daemon[1866]: discover_other_daemon: 1
+2026-04-06T00:04:38.124648+00:00 linux gnome-keyring-daemon[1867]: discover_other_daemon: 1
+2026-04-06T00:04:38.964738+00:00 linux polkitd[852]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-04-06T00:04:39.356169+00:00 linux gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-04-06T00:04:39.359126+00:00 linux systemd-logind[863]: Session c1 logged out. Waiting for processes to exit.
+2026-04-06T00:04:39.387669+00:00 linux polkitd[852]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-04-06T00:04:39.391124+00:00 linux systemd-logind[863]: Removed session c1.
+2026-04-06T00:05:01.929779+00:00 linux CRON[2584]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T00:05:01.932272+00:00 linux CRON[2584]: pam_unix(cron:session): session closed for user root
+2026-04-06T00:05:41.020878+00:00 linux pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T00:05:41.021428+00:00 linux pkexec[2644]: ewadlei: Executing command [USER=root] [TTY=unknown] [CWD=/home/ewadlei] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-06T00:15:01.958837+00:00 linux CRON[2757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T00:15:01.964014+00:00 linux CRON[2757]: pam_unix(cron:session): session closed for user root
+2026-04-06T00:17:01.974661+00:00 linux CRON[2765]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T00:17:01.979787+00:00 linux CRON[2765]: pam_unix(cron:session): session closed for user root
+2026-04-06T00:24:51.469876+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/cp /var/log/syslog /home/ewadlei/SyslogML/training_logs.txt
+2026-04-06T00:24:51.471089+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T00:24:51.480296+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T00:25:01.989488+00:00 linux CRON[2804]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T00:25:01.990664+00:00 linux CRON[2804]: pam_unix(cron:session): session closed for user root
+2026-04-06T00:25:05.004878+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/chmod 644 /home/ewadlei/SyslogML/training_logs.txt
+2026-04-06T00:25:05.006680+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T00:25:05.009164+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T00:35:03.278904+00:00 linux CRON[2908]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T00:35:03.285083+00:00 linux CRON[2908]: pam_unix(cron:session): session closed for user root
+2026-04-06T05:02:06.558223+00:00 linux dbus-daemon[846]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-04-06T15:25:24.118025+00:00 linux CRON[3517]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T15:25:24.122055+00:00 linux CRON[3517]: pam_unix(cron:session): session closed for user root
+2026-04-06T15:26:09.233631+00:00 linux pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T15:26:09.234233+00:00 linux pkexec[3526]: ewadlei: Executing command [USER=root] [TTY=unknown] [CWD=/home/ewadlei] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-06T15:30:01.142745+00:00 linux CRON[3538]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T15:30:01.145843+00:00 linux CRON[3538]: pam_unix(cron:session): session closed for user root
+2026-04-06T15:32:45.383612+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-06T15:35:01.160255+00:00 linux CRON[3687]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T15:35:01.163103+00:00 linux CRON[3687]: pam_unix(cron:session): session closed for user root
+2026-04-06T15:45:01.187649+00:00 linux CRON[3706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T15:45:01.193270+00:00 linux CRON[3706]: pam_unix(cron:session): session closed for user root
+2026-04-06T15:55:01.207792+00:00 linux CRON[3750]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T15:55:01.209591+00:00 linux CRON[3750]: pam_unix(cron:session): session closed for user root
+2026-04-06T16:05:01.225960+00:00 linux CRON[3787]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T16:05:01.229372+00:00 linux CRON[3787]: pam_unix(cron:session): session closed for user root
+2026-04-06T16:14:38.812667+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/1 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T16:14:57.533432+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T16:15:01.249849+00:00 linux CRON[3837]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T16:15:01.251116+00:00 linux CRON[3837]: pam_unix(cron:session): session closed for user root
+2026-04-06T16:17:01.259742+00:00 linux CRON[3844]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T16:17:01.268837+00:00 linux CRON[3844]: pam_unix(cron:session): session closed for user root
+2026-04-06T16:19:45.638534+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/1 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T16:20:03.861182+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T16:25:01.300484+00:00 linux CRON[3869]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T16:25:01.311288+00:00 linux CRON[3869]: pam_unix(cron:session): session closed for user root
+2026-04-06T16:27:26.723582+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/1 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T16:27:47.295692+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T16:30:01.332501+00:00 linux CRON[3896]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T16:30:01.335162+00:00 linux CRON[3896]: pam_unix(cron:session): session closed for user root
+2026-04-06T17:15:01.293272+00:00 linux CRON[3931]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T17:15:01.299524+00:00 linux CRON[3931]: pam_unix(cron:session): session closed for user root
+2026-04-06T17:17:01.329921+00:00 linux CRON[3941]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T17:17:01.336178+00:00 linux CRON[3941]: pam_unix(cron:session): session closed for user root
+2026-04-06T17:20:50.888391+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/1 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T17:20:57.036615+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T17:25:01.373258+00:00 linux CRON[4001]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T17:25:01.381760+00:00 linux CRON[4001]: pam_unix(cron:session): session closed for user root
+2026-04-06T17:30:01.075201+00:00 linux CRON[4010]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T17:30:01.078242+00:00 linux CRON[4010]: pam_unix(cron:session): session closed for user root
+2026-04-06T19:34:15.722660+00:00 linux CRON[4038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T19:34:15.727067+00:00 linux CRON[4038]: pam_unix(cron:session): session closed for user root
+2026-04-06T19:34:15.744649+00:00 linux CRON[4040]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T19:34:15.746345+00:00 linux CRON[4040]: pam_unix(cron:session): session closed for user root
+2026-04-06T19:35:01.765426+00:00 linux CRON[4042]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T19:35:01.771090+00:00 linux CRON[4042]: pam_unix(cron:session): session closed for user root
+2026-04-06T19:40:25.401869+00:00 linux gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=ewadlei uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ewadlei
+2026-04-06T19:40:31.798131+00:00 linux gdm-password]: gkr-pam: unlocked login keyring
+2026-04-06T19:43:23.733593+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T19:43:29.418326+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T19:45:01.795651+00:00 linux CRON[4175]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T19:45:01.798887+00:00 linux CRON[4175]: pam_unix(cron:session): session closed for user root
+2026-04-06T19:55:01.829180+00:00 linux CRON[4202]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T19:55:01.832230+00:00 linux CRON[4202]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:04:57.943282+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/cat /var/log/syslog /var/log/auth.log /var/log/kern.log
+2026-04-06T20:04:57.945603+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:04:57.954448+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:05:01.861328+00:00 linux CRON[4252]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:05:01.866844+00:00 linux CRON[4252]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:05:14.036134+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/chmod 644 training_logs.txt
+2026-04-06T20:05:14.038336+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:05:14.042138+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:07:09.794122+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/head -n 3000 /var/log/auth.log
+2026-04-06T20:07:09.796458+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:07:09.799037+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:07:22.918720+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/head -n 3000 /var/log/syslog
+2026-04-06T20:07:22.919655+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:07:22.922981+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:07:38.432618+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/head -n 3000 /var/log/kern.log
+2026-04-06T20:07:38.434309+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:07:38.438290+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:10:23.528219+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:10:43.931554+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:10:58.366568+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:11:06.967925+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:12:39.229662+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/cat /var/log/syslog /var/log/auth.log /var/log/kern.log
+2026-04-06T20:12:39.230017+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:12:39.232524+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:13:04.773561+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:13:11.749960+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:15:01.890020+00:00 linux CRON[4411]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:15:01.894026+00:00 linux CRON[4411]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:17:01.907175+00:00 linux CRON[4414]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:17:01.910197+00:00 linux CRON[4414]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:18:33.708110+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:18:40.053527+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:18:44.510057+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:18:51.189502+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:18:53.300060+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:19:03.210777+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:21:09.721785+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-04-06T20:21:09.728257+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:21:09.744834+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:21:54.373176+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:21:54.374091+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:21:54.375947+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:22:06.869411+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:22:06.869612+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:22:06.873119+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:23:58.544660+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+2026-04-06T20:23:58.545189+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:23:58.556169+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:25:01.931229+00:00 linux CRON[4514]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:25:01.935229+00:00 linux CRON[4514]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:30:01.955480+00:00 linux CRON[4521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:30:01.956907+00:00 linux CRON[4521]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:35:01.975290+00:00 linux CRON[4531]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:35:01.979039+00:00 linux CRON[4531]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:39:22.727547+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:39:52.016013+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:39:54.689652+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:40:46.861900+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:40:49.906349+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:40:57.767792+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:41:03.159988+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:41:12.898066+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:41:15.771828+00:00 linux sudo: pam_unix(sudo:auth): authentication failure; logname=ewadlei uid=1000 euid=0 tty=/dev/pts/0 ruser=ewadlei rhost=  user=ewadlei
+2026-04-06T20:41:48.000112+00:00 linux sudo:  ewadlei : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/ls
+2026-04-06T20:41:57.208969+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl stop cron
+2026-04-06T20:41:57.209098+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:41:57.228718+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:42:37.774417+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl stop cron
+2026-04-06T20:42:37.776267+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:42:37.788340+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:43:13.401954+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl stop cron
+2026-04-06T20:43:13.403908+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:43:13.409732+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:43:21.924456+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl restart cron
+2026-04-06T20:43:21.925909+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:43:21.946594+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:44:28.004147+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl restart fake_service
+2026-04-06T20:44:28.005964+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:44:28.014890+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:44:47.485932+00:00 linux sudo:  ewadlei : TTY=pts/0 ; PWD=/home/ewadlei ; USER=root ; COMMAND=/usr/bin/systemctl stop notarealservice
+2026-04-06T20:44:47.486474+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)
+2026-04-06T20:44:47.491186+00:00 linux sudo: pam_unix(sudo:session): session closed for user root
+2026-04-06T20:45:01.957250+00:00 linux CRON[4631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-06T20:45:01.959149+00:00 linux CRON[4631]: pam_unix(cron:session): session closed for user root
+2026-04-06T20:46:03.007633+00:00 linux sudo:  ewadlei : TTY=pts/1 ; PWD=/home/ewadlei/SyslogML ; USER=root ; COMMAND=/usr/bin/head -n 3000 /var/log/auth.log
+2026-04-06T20:46:03.012230+00:00 linux sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ewadlei(uid=1000)

@@ -1,0 +1,1079 @@
+2026-04-05T01:38:20.416866+00:00 linux kernel: usb 1-1: USB disconnect, device number 5
+2026-04-05T01:38:20.603642+00:00 linux kernel: usb 1-2: USB disconnect, device number 4
+2026-04-05T01:38:20.932800+00:00 linux kernel: usb 1-2: new full-speed USB device number 6 using xhci_hcd
+2026-04-05T01:38:21.061140+00:00 linux kernel: usb 1-2: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2026-04-05T01:38:21.061159+00:00 linux kernel: usb 1-2: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2026-04-05T01:38:21.061160+00:00 linux kernel: usb 1-2: Product: USB Tablet
+2026-04-05T01:38:21.061161+00:00 linux kernel: usb 1-2: Manufacturer: VirtualBox
+2026-04-05T01:38:21.063765+00:00 linux kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-2/1-2:1.0/0003:80EE:0021.0005/input/input11
+2026-04-05T01:38:21.063788+00:00 linux kernel: hid-generic 0003:80EE:0021.0005: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-2/input0
+2026-04-05T01:38:21.150044+00:00 linux kernel: e1000: enp0s8 NIC Link is Down
+2026-04-05T01:38:21.151728+00:00 linux kernel: e1000 0000:00:08.0 enp0s8: Reset adapter
+2026-04-05T01:38:21.286715+00:00 linux kernel: usb 1-1: new full-speed USB device number 7 using xhci_hcd
+2026-04-05T01:38:21.414790+00:00 linux kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0010, bcdDevice= 1.00
+2026-04-05T01:38:21.414814+00:00 linux kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+2026-04-05T01:38:21.414815+00:00 linux kernel: usb 1-1: Product: USB Keyboard
+2026-04-05T01:38:21.414816+00:00 linux kernel: usb 1-1: Manufacturer: VirtualBox
+2026-04-05T01:38:21.416887+00:00 linux kernel: input: VirtualBox USB Keyboard as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0010.0006/input/input12
+2026-04-05T01:38:21.493496+00:00 linux kernel: hid-generic 0003:80EE:0010.0006: input,hidraw1: USB HID v1.10 Keyboard [VirtualBox USB Keyboard] on usb-0000:00:06.0-1/input0
+2026-04-05T01:38:23.202025+00:00 linux kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-04-05T20:56:30.416717+00:00 linux kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+2026-04-05T20:56:30.418253+00:00 linux kernel: Linux version 6.8.0-106-generic (buildd@bos03-arm64-013) (aarch64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #106-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 07:44:40 UTC 2026 (Ubuntu 6.8.0-106.106-generic 6.8.12)
+2026-04-05T20:56:30.418254+00:00 linux kernel: KASLR disabled due to lack of seed
+2026-04-05T20:56:30.418255+00:00 linux kernel: efi: EFI v2.7 by EDK II
+2026-04-05T20:56:30.418255+00:00 linux kernel: efi: ACPI 2.0=0x8613d018 MEMATTR=0x85edf298 MOKvar=0x859a0000 INITRD=0x85ecca18 MEMRESERVE=0x85ecc498 
+2026-04-05T20:56:30.418255+00:00 linux kernel: secureboot: Secure boot disabled
+2026-04-05T20:56:30.418256+00:00 linux kernel: ACPI: Early table checksum verification disabled
+2026-04-05T20:56:30.418256+00:00 linux kernel: ACPI: RSDP 0x000000008613D018 000024 (v02 ORCLVB)
+2026-04-05T20:56:30.418256+00:00 linux kernel: ACPI: XSDT 0x000000008613DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+2026-04-05T20:56:30.418257+00:00 linux kernel: ACPI: FACP 0x000000008613DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+2026-04-05T20:56:30.418257+00:00 linux kernel: ACPI: DSDT 0x0000000085FC9018 0008E8 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+2026-04-05T20:56:30.418257+00:00 linux kernel: ACPI: GTDT 0x000000008613DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+2026-04-05T20:56:30.418258+00:00 linux kernel: ACPI: APIC 0x000000008613DD98 0000F8 (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+2026-04-05T20:56:30.418258+00:00 linux kernel: ACPI: MCFG 0x000000008613D098 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+2026-04-05T20:56:30.418258+00:00 linux kernel: ACPI: BGRT 0x000000008613DA18 000038 (v01 INTEL  EDK2     00000002      01000013)
+2026-04-05T20:56:30.418259+00:00 linux kernel: NUMA: Failed to initialise from firmware
+2026-04-05T20:56:30.418259+00:00 linux kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000087ffffff]
+2026-04-05T20:56:30.418259+00:00 linux kernel: NUMA: NODE_DATA [mem 0x87bfc5c0-0x87c01fff]
+2026-04-05T20:56:30.418259+00:00 linux kernel: Zone ranges:
+2026-04-05T20:56:30.418260+00:00 linux kernel:   DMA      [mem 0x0000000008000000-0x0000000087ffffff]
+2026-04-05T20:56:30.418260+00:00 linux kernel:   DMA32    empty
+2026-04-05T20:56:30.418261+00:00 linux kernel:   Normal   empty
+2026-04-05T20:56:30.418261+00:00 linux kernel:   Device   empty
+2026-04-05T20:56:30.418261+00:00 linux kernel: Movable zone start for each node
+2026-04-05T20:56:30.418261+00:00 linux kernel: Early memory node ranges
+2026-04-05T20:56:30.418262+00:00 linux kernel:   node   0: [mem 0x0000000008000000-0x000000008599ffff]
+2026-04-05T20:56:30.418262+00:00 linux kernel:   node   0: [mem 0x00000000859a0000-0x00000000859affff]
+2026-04-05T20:56:30.418262+00:00 linux kernel:   node   0: [mem 0x00000000859b0000-0x000000008615ffff]
+2026-04-05T20:56:30.418263+00:00 linux kernel:   node   0: [mem 0x0000000086160000-0x000000008635ffff]
+2026-04-05T20:56:30.418263+00:00 linux kernel:   node   0: [mem 0x0000000086360000-0x00000000863bffff]
+2026-04-05T20:56:30.418263+00:00 linux kernel:   node   0: [mem 0x00000000863c0000-0x00000000864dffff]
+2026-04-05T20:56:30.418263+00:00 linux kernel:   node   0: [mem 0x00000000864e0000-0x000000008663ffff]
+2026-04-05T20:56:30.418264+00:00 linux kernel:   node   0: [mem 0x0000000086640000-0x000000008665ffff]
+2026-04-05T20:56:30.418265+00:00 linux kernel:   node   0: [mem 0x0000000086660000-0x00000000872bffff]
+2026-04-05T20:56:30.418265+00:00 linux kernel:   node   0: [mem 0x00000000872c0000-0x000000008769ffff]
+2026-04-05T20:56:30.418266+00:00 linux kernel:   node   0: [mem 0x00000000876a0000-0x0000000087ffffff]
+2026-04-05T20:56:30.418266+00:00 linux kernel: Initmem setup node 0 [mem 0x0000000008000000-0x0000000087ffffff]
+2026-04-05T20:56:30.418266+00:00 linux kernel: cma: Reserved 32 MiB at 0x0000000081000000 on node -1
+2026-04-05T20:56:30.418266+00:00 linux kernel: psci: probing for conduit method from ACPI.
+2026-04-05T20:56:30.418267+00:00 linux kernel: psci: PSCIv1.2 detected in firmware.
+2026-04-05T20:56:30.418267+00:00 linux kernel: psci: Using standard PSCI v0.2 function IDs
+2026-04-05T20:56:30.418268+00:00 linux kernel: psci: Trusted OS migration not required
+2026-04-05T20:56:30.418268+00:00 linux kernel: psci: SMC Calling Convention v1.0
+2026-04-05T20:56:30.418268+00:00 linux kernel: percpu: Embedded 54 pages/cpu s95016 r8192 d117976 u221184
+2026-04-05T20:56:30.418268+00:00 linux kernel: pcpu-alloc: s95016 r8192 d117976 u221184 alloc=54*4096
+2026-04-05T20:56:30.418269+00:00 linux kernel: pcpu-alloc: [0] 0 [0] 1 
+2026-04-05T20:56:30.418269+00:00 linux kernel: Detected PIPT I-cache on CPU0
+2026-04-05T20:56:30.418269+00:00 linux kernel: CPU features: detected: Address authentication (IMP DEF algorithm)
+2026-04-05T20:56:30.418270+00:00 linux kernel: CPU features: detected: GIC system register CPU interface
+2026-04-05T20:56:30.418270+00:00 linux kernel: CPU features: detected: Spectre-v4
+2026-04-05T20:56:30.418270+00:00 linux kernel: CPU features: detected: Spectre-BHB
+2026-04-05T20:56:30.418270+00:00 linux kernel: alternatives: applying boot alternatives
+2026-04-05T20:56:30.418271+00:00 linux kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-106-generic root=UUID=0cd6d496-d666-4aeb-bba2-8249e557d986 ro quiet splash noprompt noshell automatic-ubiquity debian-installer/locale=en_US keyboard-configuration/layoutcode=us languagechooser/language-name=English localechooser/supported-locales=en_US.UTF-8 countrychooser/shortlist=US -- vt.handoff=7
+2026-04-05T20:56:30.418271+00:00 linux kernel: Unknown kernel command line parameters "splash noprompt noshell automatic-ubiquity debian-installer/locale=en_US keyboard-configuration/layoutcode=us languagechooser/language-name=English localechooser/supported-locales=en_US.UTF-8 countrychooser/shortlist=US", will be passed to user space.
+2026-04-05T20:56:30.418272+00:00 linux kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2026-04-05T20:56:30.418272+00:00 linux kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-04-05T20:56:30.418272+00:00 linux kernel: Fallback order for Node 0: 0 
+2026-04-05T20:56:30.418273+00:00 linux kernel: Built 1 zonelists, mobility grouping on.  Total pages: 516096
+2026-04-05T20:56:30.418273+00:00 linux kernel: Policy zone: DMA
+2026-04-05T20:56:30.418273+00:00 linux kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2026-04-05T20:56:30.418274+00:00 linux kernel: software IO TLB: SWIOTLB bounce buffer size adjusted to 2MB
+2026-04-05T20:56:30.418274+00:00 linux kernel: software IO TLB: area num 2.
+2026-04-05T20:56:30.418274+00:00 linux kernel: software IO TLB: mapped [mem 0x00000000870c0000-0x00000000872c0000] (2MB)
+2026-04-05T20:56:30.418274+00:00 linux kernel: Memory: 1877148K/2097152K available (23488K kernel code, 5208K rwdata, 16440K rodata, 12288K init, 1233K bss, 187236K reserved, 32768K cma-reserved)
+2026-04-05T20:56:30.418275+00:00 linux kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2026-04-05T20:56:30.418276+00:00 linux kernel: ftrace: allocating 63084 entries in 247 pages
+2026-04-05T20:56:30.418276+00:00 linux kernel: ftrace: allocated 247 pages with 7 groups
+2026-04-05T20:56:30.418276+00:00 linux kernel: Dynamic Preempt: voluntary
+2026-04-05T20:56:30.418276+00:00 linux kernel: rcu: Preemptible hierarchical RCU implementation.
+2026-04-05T20:56:30.418276+00:00 linux kernel: rcu: 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=2.
+2026-04-05T20:56:30.418277+00:00 linux kernel: 	Trampoline variant of Tasks RCU enabled.
+2026-04-05T20:56:30.418277+00:00 linux kernel: 	Rude variant of Tasks RCU enabled.
+2026-04-05T20:56:30.418278+00:00 linux kernel: 	Tracing variant of Tasks RCU enabled.
+2026-04-05T20:56:30.418278+00:00 linux kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2026-04-05T20:56:30.418278+00:00 linux kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2026-04-05T20:56:30.418278+00:00 linux kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-05T20:56:30.418279+00:00 linux kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-05T20:56:30.418279+00:00 linux kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-05T20:56:30.418279+00:00 linux kernel: NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+2026-04-05T20:56:30.418280+00:00 linux kernel: GICv3: 988 SPIs implemented
+2026-04-05T20:56:30.418280+00:00 linux kernel: GICv3: 1024 Extended SPIs implemented
+2026-04-05T20:56:30.418280+00:00 linux kernel: Root IRQ handler: gic_handle_irq
+2026-04-05T20:56:30.418280+00:00 linux kernel: GICv3: GICv3 features: 80 PPIs, RSS
+2026-04-05T20:56:30.418281+00:00 linux kernel: GICv3: CPU0: found redistributor 0 region 0:0x00000000fcd40000
+2026-04-05T20:56:30.418281+00:00 linux kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-04-05T20:56:30.418282+00:00 linux kernel: arch_timer: cp15 timer(s) running at 24.00MHz (virt).
+2026-04-05T20:56:30.418282+00:00 linux kernel: clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+2026-04-05T20:56:30.418282+00:00 linux kernel: sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+2026-04-05T20:56:30.418282+00:00 linux kernel: Console: colour dummy device 80x25
+2026-04-05T20:56:30.418283+00:00 linux kernel: printk: legacy console [tty0] enabled
+2026-04-05T20:56:30.418283+00:00 linux kernel: ACPI: Core revision 20230628
+2026-04-05T20:56:30.418284+00:00 linux kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=24000)
+2026-04-05T20:56:30.418284+00:00 linux kernel: pid_max: default: 32768 minimum: 301
+2026-04-05T20:56:30.418284+00:00 linux kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+2026-04-05T20:56:30.418284+00:00 linux kernel: landlock: Up and running.
+2026-04-05T20:56:30.418285+00:00 linux kernel: Yama: becoming mindful.
+2026-04-05T20:56:30.418285+00:00 linux kernel: AppArmor: AppArmor initialized
+2026-04-05T20:56:30.418285+00:00 linux kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-04-05T20:56:30.418286+00:00 linux kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-04-05T20:56:30.418286+00:00 linux kernel: ACPI PPTT: No PPTT table found, CPU and cache topology may be inaccurate
+2026-04-05T20:56:30.418286+00:00 linux kernel: cacheinfo: Unable to detect cache hierarchy for CPU 0
+2026-04-05T20:56:30.418287+00:00 linux kernel: rcu: Hierarchical SRCU implementation.
+2026-04-05T20:56:30.418287+00:00 linux kernel: rcu: 	Max phase no-delay instances is 400.
+2026-04-05T20:56:30.418307+00:00 linux kernel: Remapping and enabling EFI services.
+2026-04-05T20:56:30.418307+00:00 linux kernel: smp: Bringing up secondary CPUs ...
+2026-04-05T20:56:30.418307+00:00 linux kernel: Detected PIPT I-cache on CPU1
+2026-04-05T20:56:30.418308+00:00 linux kernel: GICv3: CPU1: found redistributor 1 region 0:0x00000000fcd60000
+2026-04-05T20:56:30.418308+00:00 linux kernel: CPU1: Booted secondary processor 0x0000000001 [0x610f0000]
+2026-04-05T20:56:30.418308+00:00 linux kernel: smp: Brought up 1 node, 2 CPUs
+2026-04-05T20:56:30.418309+00:00 linux kernel: SMP: Total of 2 processors activated.
+2026-04-05T20:56:30.418309+00:00 linux kernel: CPU: All CPU(s) started at EL1
+2026-04-05T20:56:30.418309+00:00 linux kernel: CPU features: detected: ARMv8.4 Translation Table Level
+2026-04-05T20:56:30.418309+00:00 linux kernel: CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+2026-04-05T20:56:30.418310+00:00 linux kernel: CPU features: detected: Common not Private translations
+2026-04-05T20:56:30.418310+00:00 linux kernel: CPU features: detected: CRC32 instructions
+2026-04-05T20:56:30.418311+00:00 linux kernel: CPU features: detected: Data cache clean to Point of Deep Persistence
+2026-04-05T20:56:30.418311+00:00 linux kernel: CPU features: detected: Data cache clean to Point of Persistence
+2026-04-05T20:56:30.418311+00:00 linux kernel: CPU features: detected: Data independent timing control (DIT)
+2026-04-05T20:56:30.418311+00:00 linux kernel: CPU features: detected: E0PD
+2026-04-05T20:56:30.418311+00:00 linux kernel: CPU features: detected: Fine Grained Traps
+2026-04-05T20:56:30.418312+00:00 linux kernel: CPU features: detected: Generic authentication (IMP DEF algorithm)
+2026-04-05T20:56:30.418312+00:00 linux kernel: CPU features: detected: RCpc load-acquire (LDAPR)
+2026-04-05T20:56:30.418313+00:00 linux kernel: CPU features: detected: LSE atomic instructions
+2026-04-05T20:56:30.418313+00:00 linux kernel: CPU features: detected: Privileged Access Never
+2026-04-05T20:56:30.418313+00:00 linux kernel: CPU features: detected: RAS Extension Support
+2026-04-05T20:56:30.418313+00:00 linux kernel: CPU features: detected: Speculation barrier (SB)
+2026-04-05T20:56:30.418313+00:00 linux kernel: CPU features: detected: TLB range maintenance instructions
+2026-04-05T20:56:30.418314+00:00 linux kernel: CPU features: detected: Speculative Store Bypassing Safe (SSBS)
+2026-04-05T20:56:30.418315+00:00 linux kernel: alternatives: applying system-wide alternatives
+2026-04-05T20:56:30.418315+00:00 linux kernel: devtmpfs: initialized
+2026-04-05T20:56:30.418315+00:00 linux kernel: setend instruction emulation is not supported on this system
+2026-04-05T20:56:30.418315+00:00 linux kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2026-04-05T20:56:30.418316+00:00 linux kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-04-05T20:56:30.418316+00:00 linux kernel: pinctrl core: initialized pinctrl subsystem
+2026-04-05T20:56:30.418317+00:00 linux kernel: DMI not present or invalid.
+2026-04-05T20:56:30.418317+00:00 linux kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-04-05T20:56:30.418317+00:00 linux kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+2026-04-05T20:56:30.418317+00:00 linux kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2026-04-05T20:56:30.418318+00:00 linux kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-04-05T20:56:30.418318+00:00 linux kernel: audit: initializing netlink subsys (disabled)
+2026-04-05T20:56:30.418319+00:00 linux kernel: audit: type=2000 audit(0.013:1): state=initialized audit_enabled=0 res=1
+2026-04-05T20:56:30.418319+00:00 linux kernel: thermal_sys: Registered thermal governor 'fair_share'
+2026-04-05T20:56:30.418319+00:00 linux kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2026-04-05T20:56:30.418319+00:00 linux kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-04-05T20:56:30.418319+00:00 linux kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-04-05T20:56:30.418320+00:00 linux kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2026-04-05T20:56:30.418320+00:00 linux kernel: cpuidle: using governor ladder
+2026-04-05T20:56:30.418321+00:00 linux kernel: cpuidle: using governor menu
+2026-04-05T20:56:30.418321+00:00 linux kernel: hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+2026-04-05T20:56:30.418321+00:00 linux kernel: ASID allocator initialised with 256 entries
+2026-04-05T20:56:30.418321+00:00 linux kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-04-05T20:56:30.418321+00:00 linux kernel: Serial: AMBA PL011 UART driver
+2026-04-05T20:56:30.418322+00:00 linux kernel: Modules: 18048 pages in range for non-PLT usage
+2026-04-05T20:56:30.418322+00:00 linux kernel: Modules: 509568 pages in range for PLT usage
+2026-04-05T20:56:30.418323+00:00 linux kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+2026-04-05T20:56:30.418323+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+2026-04-05T20:56:30.418323+00:00 linux kernel: HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+2026-04-05T20:56:30.418323+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+2026-04-05T20:56:30.418323+00:00 linux kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-04-05T20:56:30.418324+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+2026-04-05T20:56:30.418324+00:00 linux kernel: HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+2026-04-05T20:56:30.418325+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+2026-04-05T20:56:30.418325+00:00 linux kernel: ACPI: Added _OSI(Module Device)
+2026-04-05T20:56:30.418325+00:00 linux kernel: ACPI: Added _OSI(Processor Device)
+2026-04-05T20:56:30.418325+00:00 linux kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-04-05T20:56:30.418326+00:00 linux kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+2026-04-05T20:56:30.418326+00:00 linux kernel: ACPI: Interpreter enabled
+2026-04-05T20:56:30.418326+00:00 linux kernel: ACPI: Using GIC for interrupt routing
+2026-04-05T20:56:30.418327+00:00 linux kernel: ACPI: MCFG table detected, 1 entries
+2026-04-05T20:56:30.418327+00:00 linux kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-0f])
+2026-04-05T20:56:30.418327+00:00 linux kernel: acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+2026-04-05T20:56:30.418327+00:00 linux kernel: acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+2026-04-05T20:56:30.418328+00:00 linux kernel: acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+2026-04-05T20:56:30.418328+00:00 linux kernel: acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_NOT_FOUND)
+2026-04-05T20:56:30.418328+00:00 linux kernel: acpi PNP0A08:00: ECAM area [mem 0xfedde000-0xffdddfff] reserved by PNP0C02:00
+2026-04-05T20:56:30.418329+00:00 linux kernel: acpi PNP0A08:00: ECAM at [mem 0xfedde000-0xffdddfff] for [bus 00-0f]
+2026-04-05T20:56:30.418329+00:00 linux kernel: ACPI: Remapped I/O 0x00000000fcd20000 to [io  0x0000-0xffff window]
+2026-04-05T20:56:30.418329+00:00 linux kernel: PCI host bridge to bus 0000:00
+2026-04-05T20:56:30.418330+00:00 linux kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xffff window]
+2026-04-05T20:56:30.418330+00:00 linux kernel: pci_bus 0000:00: root bus resource [mem 0x88000000-0x97ffffff window]
+2026-04-05T20:56:30.418330+00:00 linux kernel: pci_bus 0000:00: root bus resource [mem 0xfcd20000-0xfcd2ffff window]
+2026-04-05T20:56:30.418330+00:00 linux kernel: pci_bus 0000:00: root bus resource [bus 00-0f]
+2026-04-05T20:56:30.418331+00:00 linux kernel: pci 0000:00:00.0: [15ad:0406] type 00 class 0x030000 conventional PCI endpoint
+2026-04-05T20:56:30.418331+00:00 linux kernel: pci 0000:00:00.0: BAR 0 [mem 0x89400000-0x897fffff]
+2026-04-05T20:56:30.418332+00:00 linux kernel: pci 0000:00:00.0: BAR 2 [mem 0x88000000-0x88ffffff pref]
+2026-04-05T20:56:30.418332+00:00 linux kernel: pci 0000:00:01.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2026-04-05T20:56:30.418332+00:00 linux kernel: pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
+2026-04-05T20:56:30.418332+00:00 linux kernel: pci 0000:00:01.0: BAR 1 [mem 0x89000000-0x893fffff]
+2026-04-05T20:56:30.418333+00:00 linux kernel: pci 0000:00:01.0: BAR 3 [mem 0x89836000-0x89836fff]
+2026-04-05T20:56:30.418333+00:00 linux kernel: pci 0000:00:02.0: [8086:2668] type 00 class 0x040300 conventional PCI endpoint
+2026-04-05T20:56:30.418333+00:00 linux kernel: pci 0000:00:02.0: BAR 0 [mem 0x89830000-0x89833fff]
+2026-04-05T20:56:30.418334+00:00 linux kernel: pci 0000:00:03.0: [1af4:1048] type 00 class 0x010000 conventional PCI endpoint
+2026-04-05T20:56:30.418334+00:00 linux kernel: pci 0000:00:03.0: BAR 2 [mem 0x89834000-0x89835fff]
+2026-04-05T20:56:30.418334+00:00 linux kernel: pci 0000:00:04.0: [8086:2448] type 01 class 0x060401 conventional PCI bridge
+2026-04-05T20:56:30.418334+00:00 linux kernel: pci 0000:00:04.0: PCI bridge to [bus 01] (subtractive decode)
+2026-04-05T20:56:30.418335+00:00 linux kernel: pci 0000:00:06.0: [8086:1e31] type 00 class 0x0c0330 conventional PCI endpoint
+2026-04-05T20:56:30.418335+00:00 linux kernel: pci 0000:00:06.0: BAR 0 [mem 0x89820000-0x8982ffff]
+2026-04-05T20:56:30.418336+00:00 linux kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-04-05T20:56:30.418336+00:00 linux kernel: pci 0000:00:08.0: BAR 0 [mem 0x89800000-0x8981ffff]
+2026-04-05T20:56:30.418336+00:00 linux kernel: pci 0000:00:08.0: BAR 2 [io  0x0020-0x0027]
+2026-04-05T20:56:30.418336+00:00 linux kernel: pci_bus 0000:01: extended config space not accessible
+2026-04-05T20:56:30.418337+00:00 linux kernel: pci 0000:00:00.0: BAR 2 [mem 0x88000000-0x88ffffff pref]: assigned
+2026-04-05T20:56:30.418337+00:00 linux kernel: pci 0000:00:00.0: BAR 0 [mem 0x89000000-0x893fffff]: assigned
+2026-04-05T20:56:30.418337+00:00 linux kernel: pci 0000:00:01.0: BAR 1 [mem 0x89400000-0x897fffff]: assigned
+2026-04-05T20:56:30.418341+00:00 linux kernel: pci 0000:00:08.0: BAR 0 [mem 0x89800000-0x8981ffff]: assigned
+2026-04-05T20:56:30.418342+00:00 linux kernel: pci 0000:00:06.0: BAR 0 [mem 0x89820000-0x8982ffff]: assigned
+2026-04-05T20:56:30.418342+00:00 linux kernel: pci 0000:00:02.0: BAR 0 [mem 0x89830000-0x89833fff]: assigned
+2026-04-05T20:56:30.418342+00:00 linux kernel: pci 0000:00:03.0: BAR 2 [mem 0x89834000-0x89835fff]: assigned
+2026-04-05T20:56:30.418342+00:00 linux kernel: pci 0000:00:01.0: BAR 3 [mem 0x89836000-0x89836fff]: assigned
+2026-04-05T20:56:30.418343+00:00 linux kernel: pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
+2026-04-05T20:56:30.418344+00:00 linux kernel: pci 0000:00:08.0: BAR 2 [io  0x1020-0x1027]: assigned
+2026-04-05T20:56:30.418345+00:00 linux kernel: pci 0000:00:04.0: PCI bridge to [bus 01]
+2026-04-05T20:56:30.418366+00:00 linux kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xffff window]
+2026-04-05T20:56:30.418366+00:00 linux kernel: pci_bus 0000:00: resource 5 [mem 0x88000000-0x97ffffff window]
+2026-04-05T20:56:30.418366+00:00 linux kernel: pci_bus 0000:00: resource 6 [mem 0xfcd20000-0xfcd2ffff window]
+2026-04-05T20:56:30.418367+00:00 linux kernel: iommu: Default domain type: Translated
+2026-04-05T20:56:30.418368+00:00 linux kernel: iommu: DMA domain TLB invalidation policy: strict mode
+2026-04-05T20:56:30.418368+00:00 linux kernel: SCSI subsystem initialized
+2026-04-05T20:56:30.418368+00:00 linux kernel: libata version 3.00 loaded.
+2026-04-05T20:56:30.418369+00:00 linux kernel: ACPI: bus type USB registered
+2026-04-05T20:56:30.418369+00:00 linux kernel: usbcore: registered new interface driver usbfs
+2026-04-05T20:56:30.418369+00:00 linux kernel: usbcore: registered new interface driver hub
+2026-04-05T20:56:30.418369+00:00 linux kernel: usbcore: registered new device driver usb
+2026-04-05T20:56:30.418371+00:00 linux kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-04-05T20:56:30.418371+00:00 linux kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-04-05T20:56:30.418371+00:00 linux kernel: PTP clock support registered
+2026-04-05T20:56:30.418372+00:00 linux kernel: EDAC MC: Ver: 3.0.0
+2026-04-05T20:56:30.418372+00:00 linux kernel: scmi_core: SCMI protocol bus registered
+2026-04-05T20:56:30.418372+00:00 linux kernel: efivars: Registered efivars operations
+2026-04-05T20:56:30.418373+00:00 linux kernel: NetLabel: Initializing
+2026-04-05T20:56:30.418373+00:00 linux kernel: NetLabel:  domain hash size = 128
+2026-04-05T20:56:30.418374+00:00 linux kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-04-05T20:56:30.418374+00:00 linux kernel: NetLabel:  unlabeled traffic allowed by default
+2026-04-05T20:56:30.418374+00:00 linux kernel: mctp: management component transport protocol core
+2026-04-05T20:56:30.418374+00:00 linux kernel: NET: Registered PF_MCTP protocol family
+2026-04-05T20:56:30.418374+00:00 linux kernel: pci 0000:00:00.0: vgaarb: setting as boot VGA device
+2026-04-05T20:56:30.418376+00:00 linux kernel: pci 0000:00:00.0: vgaarb: bridge control possible
+2026-04-05T20:56:30.418376+00:00 linux kernel: pci 0000:00:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2026-04-05T20:56:30.418376+00:00 linux kernel: vgaarb: loaded
+2026-04-05T20:56:30.418376+00:00 linux kernel: clocksource: Switched to clocksource arch_sys_counter
+2026-04-05T20:56:30.418377+00:00 linux kernel: VFS: Disk quotas dquot_6.6.0
+2026-04-05T20:56:30.418377+00:00 linux kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-04-05T20:56:30.418378+00:00 linux kernel: AppArmor: AppArmor Filesystem Enabled
+2026-04-05T20:56:30.418378+00:00 linux kernel: pnp: PnP ACPI init
+2026-04-05T20:56:30.418378+00:00 linux kernel: system 00:00: [mem 0xfedde000-0xffdddfff window] could not be reserved
+2026-04-05T20:56:30.418379+00:00 linux kernel: pnp: PnP ACPI: found 1 devices
+2026-04-05T20:56:30.418379+00:00 linux kernel: NET: Registered PF_INET protocol family
+2026-04-05T20:56:30.418379+00:00 linux kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-04-05T20:56:30.418380+00:00 linux kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+2026-04-05T20:56:30.418381+00:00 linux kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-04-05T20:56:30.418381+00:00 linux kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2026-04-05T20:56:30.418381+00:00 linux kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+2026-04-05T20:56:30.418381+00:00 linux kernel: TCP: Hash tables configured (established 16384 bind 16384)
+2026-04-05T20:56:30.418381+00:00 linux kernel: MPTCP token hash table entries: 2048 (order: 4, 49152 bytes, linear)
+2026-04-05T20:56:30.418382+00:00 linux kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-04-05T20:56:30.418383+00:00 linux kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-04-05T20:56:30.418383+00:00 linux kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-04-05T20:56:30.418383+00:00 linux kernel: NET: Registered PF_XDP protocol family
+2026-04-05T20:56:30.418383+00:00 linux kernel: pci 0000:00:06.0: enabling device (0010 -> 0012)
+2026-04-05T20:56:30.418384+00:00 linux kernel: PCI: CLS 0 bytes, default 64
+2026-04-05T20:56:30.418384+00:00 linux kernel: Trying to unpack rootfs image as initramfs...
+2026-04-05T20:56:30.418385+00:00 linux kernel: kvm [1]: HYP mode not available
+2026-04-05T20:56:30.418385+00:00 linux kernel: Initialise system trusted keyrings
+2026-04-05T20:56:30.418385+00:00 linux kernel: Key type blacklist registered
+2026-04-05T20:56:30.418386+00:00 linux kernel: workingset: timestamp_bits=40 max_order=19 bucket_order=0
+2026-04-05T20:56:30.418386+00:00 linux kernel: zbud: loaded
+2026-04-05T20:56:30.418386+00:00 linux kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2026-04-05T20:56:30.418386+00:00 linux kernel: fuse: init (API version 7.39)
+2026-04-05T20:56:30.418387+00:00 linux kernel: integrity: Platform Keyring initialized
+2026-04-05T20:56:30.418388+00:00 linux kernel: integrity: Machine keyring initialized
+2026-04-05T20:56:30.418388+00:00 linux kernel: Key type asymmetric registered
+2026-04-05T20:56:30.418388+00:00 linux kernel: Asymmetric key parser 'x509' registered
+2026-04-05T20:56:30.418388+00:00 linux kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+2026-04-05T20:56:30.418389+00:00 linux kernel: io scheduler mq-deadline registered
+2026-04-05T20:56:30.418390+00:00 linux kernel: pl061_gpio ARMH0061:00: PL061 GPIO chip registered
+2026-04-05T20:56:30.418390+00:00 linux kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2026-04-05T20:56:30.418390+00:00 linux kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+2026-04-05T20:56:30.418390+00:00 linux kernel: msm_serial: driver initialized
+2026-04-05T20:56:30.418391+00:00 linux kernel: SuperH (H)SCI(F) driver initialized
+2026-04-05T20:56:30.418391+00:00 linux kernel: loop: module loaded
+2026-04-05T20:56:30.418392+00:00 linux kernel: virtio_scsi virtio0: 2/0/0 default/read/poll queues
+2026-04-05T20:56:30.418392+00:00 linux kernel: scsi host0: Virtio SCSI HBA
+2026-04-05T20:56:30.418392+00:00 linux kernel: ACPI: bus type drm_connector registered
+2026-04-05T20:56:30.418393+00:00 linux kernel: tun: Universal TUN/TAP device driver, 1.6
+2026-04-05T20:56:30.418393+00:00 linux kernel: scsi 0:0:0:0: Direct-Access     VBOX     HARDDISK         1.0  PQ: 0 ANSI: 5
+2026-04-05T20:56:30.418393+00:00 linux kernel: PPP generic driver version 2.4.2
+2026-04-05T20:56:30.418393+00:00 linux kernel: mousedev: PS/2 mouse device common for all mice
+2026-04-05T20:56:30.418394+00:00 linux kernel: rtc-efi rtc-efi.0: registered as rtc0
+2026-04-05T20:56:30.418395+00:00 linux kernel: rtc-efi rtc-efi.0: setting system clock to 2026-04-05T20:56:26 UTC (1775422586)
+2026-04-05T20:56:30.418395+00:00 linux kernel: i2c_dev: i2c /dev entries driver
+2026-04-05T20:56:30.418395+00:00 linux kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2026-04-05T20:56:30.418395+00:00 linux kernel: device-mapper: uevent: version 1.0.3
+2026-04-05T20:56:30.418396+00:00 linux kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+2026-04-05T20:56:30.418397+00:00 linux kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2026-04-05T20:56:30.418397+00:00 linux kernel: [drm] Initialized simpledrm 1.0.0 20200625 for simple-framebuffer.0 on minor 0
+2026-04-05T20:56:30.418397+00:00 linux kernel: fbcon: Deferring console take-over
+2026-04-05T20:56:30.418398+00:00 linux kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+2026-04-05T20:56:30.418398+00:00 linux kernel: No ACPI PMU IRQ for CPU0
+2026-04-05T20:56:30.418398+00:00 linux kernel: No ACPI PMU IRQ for CPU1
+2026-04-05T20:56:30.418399+00:00 linux kernel: drop_monitor: Initializing network drop monitor service
+2026-04-05T20:56:30.418400+00:00 linux kernel: NET: Registered PF_INET6 protocol family
+2026-04-05T20:56:30.418400+00:00 linux kernel: scsi 0:0:1:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2026-04-05T20:56:30.418400+00:00 linux kernel: scsi 0:0:2:0: Direct-Access     VBOX     HARDDISK         1.0  PQ: 0 ANSI: 5
+2026-04-05T20:56:30.418400+00:00 linux kernel: scsi 0:0:0:0: Attached scsi generic sg0 type 0
+2026-04-05T20:56:30.418400+00:00 linux kernel: sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+2026-04-05T20:56:30.418401+00:00 linux kernel: sd 0:0:0:0: [sda] Write Protect is off
+2026-04-05T20:56:30.418402+00:00 linux kernel: sd 0:0:0:0: [sda] Mode Sense: 0f 00 10 00
+2026-04-05T20:56:30.418402+00:00 linux kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, supports DPO and FUA
+2026-04-05T20:56:30.418402+00:00 linux kernel: sr 0:0:1:0: [sr0] scsi-1 drive
+2026-04-05T20:56:30.418403+00:00 linux kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2026-04-05T20:56:30.418403+00:00 linux kernel: sr 0:0:1:0: Attached scsi CD-ROM sr0
+2026-04-05T20:56:30.418403+00:00 linux kernel: sr 0:0:1:0: Attached scsi generic sg1 type 5
+2026-04-05T20:56:30.418404+00:00 linux kernel: sd 0:0:2:0: Attached scsi generic sg2 type 0
+2026-04-05T20:56:30.418405+00:00 linux kernel: sd 0:0:2:0: [sdb] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+2026-04-05T20:56:30.418405+00:00 linux kernel: sd 0:0:2:0: [sdb] Write Protect is off
+2026-04-05T20:56:30.418405+00:00 linux kernel: sd 0:0:2:0: [sdb] Mode Sense: 0f 00 10 00
+2026-04-05T20:56:30.418405+00:00 linux kernel: sd 0:0:2:0: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA
+2026-04-05T20:56:30.418406+00:00 linux kernel:  sda: sda1 sda2
+2026-04-05T20:56:30.418406+00:00 linux kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+2026-04-05T20:56:30.418407+00:00 linux kernel: Freeing initrd memory: 78372K
+2026-04-05T20:56:30.418408+00:00 linux kernel: Segment Routing with IPv6
+2026-04-05T20:56:30.418408+00:00 linux kernel: In-situ OAM (IOAM) with IPv6
+2026-04-05T20:56:30.418408+00:00 linux kernel: NET: Registered PF_PACKET protocol family
+2026-04-05T20:56:30.418408+00:00 linux kernel: Key type dns_resolver registered
+2026-04-05T20:56:30.418409+00:00 linux kernel: registered taskstats version 1
+2026-04-05T20:56:30.418410+00:00 linux kernel: Loading compiled-in X.509 certificates
+2026-04-05T20:56:30.418410+00:00 linux kernel: Loaded X.509 cert 'Build time autogenerated kernel key: ddea6181557b1fd9f9cad0f698251cbd57730c83'
+2026-04-05T20:56:30.418410+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+2026-04-05T20:56:30.418410+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2026-04-05T20:56:30.418411+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2026-04-05T20:56:30.418411+00:00 linux kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2026-04-05T20:56:30.418432+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2026-04-05T20:56:30.418433+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2026-04-05T20:56:30.418433+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2026-04-05T20:56:30.418433+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2026-04-05T20:56:30.418434+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2026-04-05T20:56:30.418434+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2026-04-05T20:56:30.418435+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2026-04-05T20:56:30.418435+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2026-04-05T20:56:30.418436+00:00 linux kernel: Key type .fscrypt registered
+2026-04-05T20:56:30.418436+00:00 linux kernel: Key type fscrypt-provisioning registered
+2026-04-05T20:56:30.418436+00:00 linux kernel:  sdb: sdb1
+2026-04-05T20:56:30.418436+00:00 linux kernel: sd 0:0:2:0: [sdb] Attached SCSI disk
+2026-04-05T20:56:30.418438+00:00 linux kernel: Key type encrypted registered
+2026-04-05T20:56:30.418438+00:00 linux kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2026-04-05T20:56:30.418438+00:00 linux kernel: ima: secureboot mode disabled
+2026-04-05T20:56:30.418438+00:00 linux kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-04-05T20:56:30.418438+00:00 linux kernel: Loading compiled-in module X.509 certificates
+2026-04-05T20:56:30.418439+00:00 linux kernel: Loaded X.509 cert 'Build time autogenerated kernel key: ddea6181557b1fd9f9cad0f698251cbd57730c83'
+2026-04-05T20:56:30.418440+00:00 linux kernel: ima: Allocated hash algorithm: sha256
+2026-04-05T20:56:30.418440+00:00 linux kernel: ima: No architecture policies found
+2026-04-05T20:56:30.418440+00:00 linux kernel: evm: Initialising EVM extended attributes:
+2026-04-05T20:56:30.418441+00:00 linux kernel: evm: security.selinux
+2026-04-05T20:56:30.418441+00:00 linux kernel: evm: security.SMACK64
+2026-04-05T20:56:30.418441+00:00 linux kernel: evm: security.SMACK64EXEC
+2026-04-05T20:56:30.418442+00:00 linux kernel: evm: security.SMACK64TRANSMUTE
+2026-04-05T20:56:30.418442+00:00 linux kernel: evm: security.SMACK64MMAP
+2026-04-05T20:56:30.418443+00:00 linux kernel: evm: security.apparmor
+2026-04-05T20:56:30.418443+00:00 linux kernel: evm: security.ima
+2026-04-05T20:56:30.418443+00:00 linux kernel: evm: security.capability
+2026-04-05T20:56:30.418443+00:00 linux kernel: evm: HMAC attrs: 0x1
+2026-04-05T20:56:30.418444+00:00 linux kernel: clk: Disabling unused clocks
+2026-04-05T20:56:30.418445+00:00 linux kernel: Freeing unused kernel memory: 12288K
+2026-04-05T20:56:30.418445+00:00 linux kernel: Checked W+X mappings: passed, no W+X pages found
+2026-04-05T20:56:30.418446+00:00 linux kernel: Run /init as init process
+2026-04-05T20:56:30.418446+00:00 linux kernel:   with arguments:
+2026-04-05T20:56:30.418446+00:00 linux kernel:     /init
+2026-04-05T20:56:30.418446+00:00 linux kernel:     splash
+2026-04-05T20:56:30.418447+00:00 linux kernel:     noprompt
+2026-04-05T20:56:30.418448+00:00 linux kernel:     noshell
+2026-04-05T20:56:30.418448+00:00 linux kernel:     automatic-ubiquity
+2026-04-05T20:56:30.418448+00:00 linux kernel:     vt.handoff=7
+2026-04-05T20:56:30.418448+00:00 linux kernel:   with environment:
+2026-04-05T20:56:30.418449+00:00 linux kernel:     HOME=/
+2026-04-05T20:56:30.418449+00:00 linux kernel:     TERM=linux
+2026-04-05T20:56:30.418450+00:00 linux kernel:     debian-installer/locale=en_US
+2026-04-05T20:56:30.418450+00:00 linux kernel:     keyboard-configuration/layoutcode=us
+2026-04-05T20:56:30.418450+00:00 linux kernel:     languagechooser/language-name=English
+2026-04-05T20:56:30.418451+00:00 linux kernel:     localechooser/supported-locales=en_US.UTF-8
+2026-04-05T20:56:30.418451+00:00 linux kernel:     countrychooser/shortlist=US
+2026-04-05T20:56:30.418451+00:00 linux kernel: xhci_hcd 0000:00:06.0: xHCI Host Controller
+2026-04-05T20:56:30.418452+00:00 linux kernel: xhci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+2026-04-05T20:56:30.418452+00:00 linux kernel: xhci_hcd 0000:00:06.0: hcc params 0x04000000 hci version 0x100 quirks 0x000000000000b930
+2026-04-05T20:56:30.418453+00:00 linux kernel: xhci_hcd 0000:00:06.0: xHCI Host Controller
+2026-04-05T20:56:30.418453+00:00 linux kernel: xhci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 2
+2026-04-05T20:56:30.418453+00:00 linux kernel: xhci_hcd 0000:00:06.0: Host supports USB 3.0 SuperSpeed
+2026-04-05T20:56:30.418453+00:00 linux kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+2026-04-05T20:56:30.418454+00:00 linux kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-04-05T20:56:30.418455+00:00 linux kernel: usb usb1: Product: xHCI Host Controller
+2026-04-05T20:56:30.418455+00:00 linux kernel: usb usb1: Manufacturer: Linux 6.8.0-106-generic xhci-hcd
+2026-04-05T20:56:30.418455+00:00 linux kernel: usb usb1: SerialNumber: 0000:00:06.0
+2026-04-05T20:56:30.418455+00:00 linux kernel: hub 1-0:1.0: USB hub found
+2026-04-05T20:56:30.418456+00:00 linux kernel: hub 1-0:1.0: 8 ports detected
+2026-04-05T20:56:30.418456+00:00 linux kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.08
+2026-04-05T20:56:30.418457+00:00 linux kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-04-05T20:56:30.418458+00:00 linux kernel: usb usb2: Product: xHCI Host Controller
+2026-04-05T20:56:30.418458+00:00 linux kernel: usb usb2: Manufacturer: Linux 6.8.0-106-generic xhci-hcd
+2026-04-05T20:56:30.418458+00:00 linux kernel: usb usb2: SerialNumber: 0000:00:06.0
+2026-04-05T20:56:30.418458+00:00 linux kernel: hub 2-0:1.0: USB hub found
+2026-04-05T20:56:30.418459+00:00 linux kernel: hub 2-0:1.0: 6 ports detected
+2026-04-05T20:56:30.418460+00:00 linux kernel: e1000: Intel(R) PRO/1000 Network Driver
+2026-04-05T20:56:30.418460+00:00 linux kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2026-04-05T20:56:30.418460+00:00 linux kernel: e1000 0000:00:08.0: enabling device (0010 -> 0013)
+2026-04-05T20:56:30.418460+00:00 linux kernel: usb 1-1: new full-speed USB device number 2 using xhci_hcd
+2026-04-05T20:56:30.418461+00:00 linux kernel: e1000 0000:00:08.0 eth0: (PCI:33MHz:32-bit) 08:00:27:8c:d8:aa
+2026-04-05T20:56:30.418461+00:00 linux kernel: e1000 0000:00:08.0 eth0: Intel(R) PRO/1000 Network Connection
+2026-04-05T20:56:30.418461+00:00 linux kernel: e1000 0000:00:08.0 enp0s8: renamed from eth0
+2026-04-05T20:56:30.418463+00:00 linux kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0010, bcdDevice= 1.00
+2026-04-05T20:56:30.418463+00:00 linux kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+2026-04-05T20:56:30.418463+00:00 linux kernel: usb 1-1: Product: USB Keyboard
+2026-04-05T20:56:30.418463+00:00 linux kernel: usb 1-1: Manufacturer: VirtualBox
+2026-04-05T20:56:30.418464+00:00 linux kernel: raid6: neonx8   gen() 36892 MB/s
+2026-04-05T20:56:30.418464+00:00 linux kernel: raid6: neonx4   gen() 37504 MB/s
+2026-04-05T20:56:30.418465+00:00 linux kernel: raid6: neonx2   gen() 38078 MB/s
+2026-04-05T20:56:30.418465+00:00 linux kernel: raid6: neonx1   gen() 34740 MB/s
+2026-04-05T20:56:30.418465+00:00 linux kernel: raid6: int64x8  gen() 14958 MB/s
+2026-04-05T20:56:30.418466+00:00 linux kernel: raid6: int64x4  gen() 13354 MB/s
+2026-04-05T20:56:30.418466+00:00 linux kernel: usb 1-2: new full-speed USB device number 3 using xhci_hcd
+2026-04-05T20:56:30.418466+00:00 linux kernel: raid6: int64x2  gen() 12276 MB/s
+2026-04-05T20:56:30.418467+00:00 linux kernel: raid6: int64x1  gen() 10749 MB/s
+2026-04-05T20:56:30.418467+00:00 linux kernel: raid6: using algorithm neonx2 gen() 38078 MB/s
+2026-04-05T20:56:30.418468+00:00 linux kernel: raid6: .... xor() 31623 MB/s, rmw enabled
+2026-04-05T20:56:30.418468+00:00 linux kernel: raid6: using neon recovery algorithm
+2026-04-05T20:56:30.418468+00:00 linux kernel: xor: measuring software checksum speed
+2026-04-05T20:56:30.418468+00:00 linux kernel:    8regs           : 21087 MB/sec
+2026-04-05T20:56:30.418469+00:00 linux kernel:    32regs          : 42062 MB/sec
+2026-04-05T20:56:30.418470+00:00 linux kernel:    arm64_neon      : 56243 MB/sec
+2026-04-05T20:56:30.418470+00:00 linux kernel: xor: using function: arm64_neon (56243 MB/sec)
+2026-04-05T20:56:30.418470+00:00 linux kernel: async_tx: api initialized (async)
+2026-04-05T20:56:30.418470+00:00 linux kernel: usb 1-2: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2026-04-05T20:56:30.418471+00:00 linux kernel: usb 1-2: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2026-04-05T20:56:30.418471+00:00 linux kernel: usb 1-2: Product: USB Tablet
+2026-04-05T20:56:30.418472+00:00 linux kernel: usb 1-2: Manufacturer: VirtualBox
+2026-04-05T20:56:30.418472+00:00 linux kernel: hid: raw HID events driver (C) Jiri Kosina
+2026-04-05T20:56:30.418472+00:00 linux kernel: usbcore: registered new interface driver usbhid
+2026-04-05T20:56:30.418473+00:00 linux kernel: usbhid: USB HID core driver
+2026-04-05T20:56:30.418473+00:00 linux kernel: input: VirtualBox USB Keyboard as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0010.0001/input/input0
+2026-04-05T20:56:30.418473+00:00 linux kernel: hid-generic 0003:80EE:0010.0001: input,hidraw0: USB HID v1.10 Keyboard [VirtualBox USB Keyboard] on usb-0000:00:06.0-1/input0
+2026-04-05T20:56:30.418474+00:00 linux kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-2/1-2:1.0/0003:80EE:0021.0002/input/input1
+2026-04-05T20:56:30.418474+00:00 linux kernel: hid-generic 0003:80EE:0021.0002: input,hidraw1: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-2/input0
+2026-04-05T20:56:30.418475+00:00 linux kernel: random: crng init done
+2026-04-05T20:56:30.418475+00:00 linux kernel: Btrfs loaded, zoned=yes, fsverity=yes
+2026-04-05T20:56:30.418475+00:00 linux kernel: EXT4-fs (sda2): mounted filesystem 0cd6d496-d666-4aeb-bba2-8249e557d986 ro with ordered data mode. Quota mode: none.
+2026-04-05T20:56:30.418509+00:00 linux kernel: pstore: Using crash dump compression: deflate
+2026-04-05T20:56:30.418511+00:00 linux kernel: pstore: Registered efi_pstore as persistent store backend
+2026-04-05T20:56:30.418514+00:00 linux kernel: EXT4-fs (sda2): re-mounted 0cd6d496-d666-4aeb-bba2-8249e557d986 r/w.
+2026-04-05T20:56:30.418520+00:00 linux kernel: loop0: detected capacity change from 0 to 141200
+2026-04-05T20:56:30.418520+00:00 linux kernel: loop1: detected capacity change from 0 to 8
+2026-04-05T20:56:30.418520+00:00 linux kernel: loop2: detected capacity change from 0 to 141184
+2026-04-05T20:56:30.418521+00:00 linux kernel: loop3: detected capacity change from 0 to 483440
+2026-04-05T20:56:30.418521+00:00 linux kernel: loop4: detected capacity change from 0 to 483472
+2026-04-05T20:56:30.418522+00:00 linux kernel: loop5: detected capacity change from 0 to 187776
+2026-04-05T20:56:30.418522+00:00 linux kernel: loop6: detected capacity change from 0 to 1030064
+2026-04-05T20:56:30.418522+00:00 linux kernel: loop7: detected capacity change from 0 to 450528
+2026-04-05T20:56:30.418523+00:00 linux kernel: loop8: detected capacity change from 0 to 85200
+2026-04-05T20:56:30.418524+00:00 linux kernel: loop9: detected capacity change from 0 to 448816
+2026-04-05T20:56:30.418524+00:00 linux kernel: soc_button_array ACPI0011:00: Unknown button index 1 upage 01 usage 82, ignoring
+2026-04-05T20:56:30.418524+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Register MMIO at 0x0x0000000089000000 size is 4096 kiB
+2026-04-05T20:56:30.418525+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] VRAM at 0x0000000088000000 size is 16384 kiB
+2026-04-05T20:56:30.418525+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Running on SVGA version 3.
+2026-04-05T20:56:30.418534+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, 
+2026-04-05T20:56:30.418535+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] DMA map mode: Caching DMA mappings.
+2026-04-05T20:56:30.418535+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 2048 kB, surface = 507904 kB
+2026-04-05T20:56:30.418535+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] MOB limits: max mob size = 131072 kB, max mob pages = 4096
+2026-04-05T20:56:30.418535+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Max GMR ids is 8192
+2026-04-05T20:56:30.418536+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Max number of GMR pages is 1048576
+2026-04-05T20:56:30.418536+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Maximum display memory size is 16384 kiB
+2026-04-05T20:56:30.418537+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Screen Target display unit initialized
+2026-04-05T20:56:30.418537+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Using command buffers with DMA pool.
+2026-04-05T20:56:30.418538+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Available shader model: Legacy.
+2026-04-05T20:56:30.418538+00:00 linux kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+2026-04-05T20:56:30.418538+00:00 linux kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:00.0 on minor 1
+2026-04-05T20:56:30.418538+00:00 linux kernel: fbcon: Deferring console take-over
+2026-04-05T20:56:30.418539+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2026-04-05T20:56:30.418540+00:00 linux kernel: input: gpio-keys as /devices/platform/ACPI0011:00/gpio-keys.1.auto/input/input2
+2026-04-05T20:56:30.418540+00:00 linux kernel: snd_hda_intel 0000:00:02.0: enabling device (0010 -> 0012)
+2026-04-05T20:56:30.418540+00:00 linux kernel: snd_hda_intel 0000:00:02.0: Force to snoop mode by module option
+2026-04-05T20:56:30.418540+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0: autoconfig for STAC9221 A1: line_outs=3 (0xc/0xf/0xb/0x0/0x0) type:speaker
+2026-04-05T20:56:30.418541+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+2026-04-05T20:56:30.418541+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    hp_outs=1 (0xa/0x0/0x0/0x0/0x0)
+2026-04-05T20:56:30.418542+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    mono: mono_out=0x0
+2026-04-05T20:56:30.418542+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    dig-out=0x10/0x0
+2026-04-05T20:56:30.418542+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    inputs:
+2026-04-05T20:56:30.418543+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:      Mic=0xd
+2026-04-05T20:56:30.418543+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:      Line=0xe
+2026-04-05T20:56:30.418543+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:      CD=0x15
+2026-04-05T20:56:30.418544+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    dig-in=0x11
+2026-04-05T20:56:30.418544+00:00 linux kernel: input: HDA Intel Mic as /devices/pci0000:00/0000:00:02.0/sound/card0/input3
+2026-04-05T20:56:30.418544+00:00 linux kernel: input: HDA Intel Line as /devices/pci0000:00/0000:00:02.0/sound/card0/input4
+2026-04-05T20:56:30.418545+00:00 linux kernel: input: HDA Intel Speaker Front as /devices/pci0000:00/0000:00:02.0/sound/card0/input5
+2026-04-05T20:56:30.418545+00:00 linux kernel: input: HDA Intel Speaker CLFE as /devices/pci0000:00/0000:00:02.0/sound/card0/input6
+2026-04-05T20:56:30.418545+00:00 linux kernel: input: HDA Intel Front Headphone as /devices/pci0000:00/0000:00:02.0/sound/card0/input7
+2026-04-05T20:56:30.418546+00:00 linux kernel: input: HDA Intel SPDIF In as /devices/pci0000:00/0000:00:02.0/sound/card0/input8
+2026-04-05T20:56:30.418547+00:00 linux kernel: audit: type=1400 audit(1775422589.823:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=672 comm="apparmor_parser"
+2026-04-05T20:56:30.418547+00:00 linux kernel: audit: type=1400 audit(1775422589.823:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=673 comm="apparmor_parser"
+2026-04-05T20:56:30.418547+00:00 linux kernel: audit: type=1400 audit(1775422589.829:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=675 comm="apparmor_parser"
+2026-04-05T20:56:30.418547+00:00 linux kernel: audit: type=1400 audit(1775422589.829:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=676 comm="apparmor_parser"
+2026-04-05T20:56:30.418548+00:00 linux kernel: audit: type=1400 audit(1775422589.830:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=677 comm="apparmor_parser"
+2026-04-05T20:56:30.418549+00:00 linux kernel: audit: type=1400 audit(1775422589.831:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=678 comm="apparmor_parser"
+2026-04-05T20:56:30.418549+00:00 linux kernel: audit: type=1400 audit(1775422589.833:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=679 comm="apparmor_parser"
+2026-04-05T20:56:30.418549+00:00 linux kernel: audit: type=1400 audit(1775422589.833:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=680 comm="apparmor_parser"
+2026-04-05T20:56:30.418550+00:00 linux kernel: audit: type=1400 audit(1775422589.835:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=682 comm="apparmor_parser"
+2026-04-05T20:56:30.418550+00:00 linux kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+2026-04-05T20:56:30.418551+00:00 linux kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+2026-04-05T20:56:30.418551+00:00 linux kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+2026-04-05T20:56:30.539615+00:00 linux kernel: NET: Registered PF_QIPCRTR protocol family
+2026-04-05T20:56:30.563774+00:00 linux kernel: loop10: detected capacity change from 0 to 8
+2026-04-05T20:56:31.056638+00:00 linux kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-04-05T20:56:48.764830+00:00 linux kernel: loop10: detected capacity change from 0 to 126776
+2026-04-05T20:57:12.265874+00:00 linux kernel: loop11: detected capacity change from 0 to 452584
+2026-04-05T20:57:12.554806+00:00 linux kernel: kauditd_printk_skb: 144 callbacks suppressed
+2026-04-05T20:57:12.554812+00:00 linux kernel: audit: type=1400 audit(1775422632.552:155): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/25939/usr/lib/snapd/snap-confine" pid=1516 comm="apparmor_parser"
+2026-04-05T20:57:12.554814+00:00 linux kernel: audit: type=1400 audit(1775422632.552:156): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/25939/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1516 comm="apparmor_parser"
+2026-04-05T20:57:12.714833+00:00 linux kernel: loop12: detected capacity change from 0 to 357512
+2026-04-05T20:57:12.855832+00:00 linux kernel: audit: type=1400 audit(1775422632.853:157): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.thunderbird" pid=1519 comm="apparmor_parser"
+2026-04-05T20:57:12.953828+00:00 linux kernel: audit: type=1400 audit(1775422632.951:158): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.hook.configure" pid=1534 comm="apparmor_parser"
+2026-04-05T20:57:13.016829+00:00 linux kernel: audit: type=1400 audit(1775422633.014:159): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.hook.install" pid=1535 comm="apparmor_parser"
+2026-04-05T20:57:13.079816+00:00 linux kernel: audit: type=1400 audit(1775422633.077:160): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.hook.post-refresh" pid=1536 comm="apparmor_parser"
+2026-04-05T20:57:13.325814+00:00 linux kernel: audit: type=1400 audit(1775422633.323:161): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.thunderbird.thunderbird" pid=1537 comm="apparmor_parser"
+2026-04-05T20:57:13.416385+00:00 linux kernel: audit: type=1400 audit(1775422633.413:162): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.mesa-2404" pid=1565 comm="apparmor_parser"
+2026-04-05T20:57:13.471818+00:00 linux kernel: audit: type=1400 audit(1775422633.469:163): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.mesa-2404.component-monitor" pid=1566 comm="apparmor_parser"
+2026-04-05T20:57:13.527907+00:00 linux kernel: audit: type=1400 audit(1775422633.525:164): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.mesa-2404.hook.connect-plug-kernel-gpu-2404" pid=1567 comm="apparmor_parser"
+2026-04-05T20:57:36.858893+00:00 linux kernel: loop13: detected capacity change from 0 to 1132440
+2026-04-05T20:57:41.924889+00:00 linux kernel: loop14: detected capacity change from 0 to 543088
+2026-04-05T20:57:42.076821+00:00 linux kernel: kauditd_printk_skb: 3 callbacks suppressed
+2026-04-05T20:57:42.076828+00:00 linux kernel: audit: type=1400 audit(1775422662.074:168): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/25939/usr/lib/snapd/snap-confine" pid=1941 comm="apparmor_parser"
+2026-04-05T20:57:42.076829+00:00 linux kernel: audit: type=1400 audit(1775422662.074:169): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/25939/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1941 comm="apparmor_parser"
+2026-04-05T20:57:42.336869+00:00 linux kernel: audit: type=1400 audit(1775422662.334:170): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.firefox" pid=1943 comm="apparmor_parser"
+2026-04-05T20:57:42.784817+00:00 linux kernel: audit: type=1400 audit(1775422662.781:171): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.firefox" pid=1944 comm="apparmor_parser"
+2026-04-05T20:57:43.229829+00:00 linux kernel: audit: type=1400 audit(1775422663.227:172): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.geckodriver" pid=1945 comm="apparmor_parser"
+2026-04-05T20:57:43.335820+00:00 linux kernel: audit: type=1400 audit(1775422663.333:173): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.hook.configure" pid=1946 comm="apparmor_parser"
+2026-04-05T20:57:43.401022+00:00 linux kernel: audit: type=1400 audit(1775422663.398:174): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.hook.disconnect-plug-host-hunspell" pid=1947 comm="apparmor_parser"
+2026-04-05T20:57:43.470822+00:00 linux kernel: audit: type=1400 audit(1775422663.468:175): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.hook.install" pid=1948 comm="apparmor_parser"
+2026-04-05T20:57:43.533807+00:00 linux kernel: audit: type=1400 audit(1775422663.531:176): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.hook.post-refresh" pid=1949 comm="apparmor_parser"
+2026-04-05T20:57:43.659811+00:00 linux kernel: audit: type=1400 audit(1775422663.657:177): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/25939/usr/lib/snapd/snap-confine" pid=1957 comm="apparmor_parser"
+2026-04-05T20:58:41.832817+00:00 linux kernel: rfkill: input handler disabled
+2026-04-05T20:59:21.700846+00:00 linux kernel: rfkill: input handler enabled
+2026-04-05T20:59:22.788843+00:00 linux kernel: rfkill: input handler disabled
+2026-04-05T20:59:22.990822+00:00 linux kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+2026-04-05T20:59:22.993275+00:00 linux kernel: ISO 9660 Extensions: RRIP_1991A
+2026-04-05T21:37:51.752948+00:00 linux kernel: sched: RT throttling activated
+2026-04-06T00:00:00.677075+00:00 linux kernel: kauditd_printk_skb: 27 callbacks suppressed
+2026-04-06T00:00:00.677141+00:00 linux kernel: audit: type=1400 audit(1775433600.671:205): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=14428 comm="cupsd" capability=12  capname="net_admin"
+2026-04-06T00:02:09.305757+00:00 linux kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+2026-04-06T00:02:09.306611+00:00 linux kernel: Linux version 6.8.0-107-generic (buildd@bos03-arm64-062) (aarch64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #107-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 13 19:42:33 UTC 2026 (Ubuntu 6.8.0-107.107-generic 6.8.12)
+2026-04-06T00:02:09.306612+00:00 linux kernel: KASLR disabled due to lack of seed
+2026-04-06T00:02:09.306613+00:00 linux kernel: efi: EFI v2.7 by EDK II
+2026-04-06T00:02:09.306613+00:00 linux kernel: efi: ACPI 2.0=0x8613d018 MEMATTR=0x85edf298 MOKvar=0x859a0000 INITRD=0x85ecca18 MEMRESERVE=0x85ecc498 
+2026-04-06T00:02:09.306613+00:00 linux kernel: secureboot: Secure boot disabled
+2026-04-06T00:02:09.306613+00:00 linux kernel: ACPI: Early table checksum verification disabled
+2026-04-06T00:02:09.306614+00:00 linux kernel: ACPI: RSDP 0x000000008613D018 000024 (v02 ORCLVB)
+2026-04-06T00:02:09.306615+00:00 linux kernel: ACPI: XSDT 0x000000008613DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+2026-04-06T00:02:09.306615+00:00 linux kernel: ACPI: FACP 0x000000008613DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+2026-04-06T00:02:09.306615+00:00 linux kernel: ACPI: DSDT 0x0000000085FC9018 0008E8 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+2026-04-06T00:02:09.306615+00:00 linux kernel: ACPI: GTDT 0x000000008613DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+2026-04-06T00:02:09.306616+00:00 linux kernel: ACPI: APIC 0x000000008613DD98 0000F8 (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+2026-04-06T00:02:09.306616+00:00 linux kernel: ACPI: MCFG 0x000000008613D098 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+2026-04-06T00:02:09.306617+00:00 linux kernel: ACPI: BGRT 0x000000008613DA18 000038 (v01 INTEL  EDK2     00000002      01000013)
+2026-04-06T00:02:09.306617+00:00 linux kernel: NUMA: Failed to initialise from firmware
+2026-04-06T00:02:09.306629+00:00 linux kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000087ffffff]
+2026-04-06T00:02:09.306629+00:00 linux kernel: NUMA: NODE_DATA [mem 0x87bfc5c0-0x87c01fff]
+2026-04-06T00:02:09.306630+00:00 linux kernel: Zone ranges:
+2026-04-06T00:02:09.306630+00:00 linux kernel:   DMA      [mem 0x0000000008000000-0x0000000087ffffff]
+2026-04-06T00:02:09.306631+00:00 linux kernel:   DMA32    empty
+2026-04-06T00:02:09.306631+00:00 linux kernel:   Normal   empty
+2026-04-06T00:02:09.306631+00:00 linux kernel:   Device   empty
+2026-04-06T00:02:09.306632+00:00 linux kernel: Movable zone start for each node
+2026-04-06T00:02:09.306632+00:00 linux kernel: Early memory node ranges
+2026-04-06T00:02:09.306632+00:00 linux kernel:   node   0: [mem 0x0000000008000000-0x000000008599ffff]
+2026-04-06T00:02:09.306636+00:00 linux kernel:   node   0: [mem 0x00000000859a0000-0x00000000859affff]
+2026-04-06T00:02:09.306636+00:00 linux kernel:   node   0: [mem 0x00000000859b0000-0x000000008615ffff]
+2026-04-06T00:02:09.306636+00:00 linux kernel:   node   0: [mem 0x0000000086160000-0x000000008635ffff]
+2026-04-06T00:02:09.306637+00:00 linux kernel:   node   0: [mem 0x0000000086360000-0x00000000863bffff]
+2026-04-06T00:02:09.306637+00:00 linux kernel:   node   0: [mem 0x00000000863c0000-0x00000000864dffff]
+2026-04-06T00:02:09.306637+00:00 linux kernel:   node   0: [mem 0x00000000864e0000-0x000000008663ffff]
+2026-04-06T00:02:09.306637+00:00 linux kernel:   node   0: [mem 0x0000000086640000-0x000000008665ffff]
+2026-04-06T00:02:09.306639+00:00 linux kernel:   node   0: [mem 0x0000000086660000-0x00000000872bffff]
+2026-04-06T00:02:09.306639+00:00 linux kernel:   node   0: [mem 0x00000000872c0000-0x000000008769ffff]
+2026-04-06T00:02:09.306639+00:00 linux kernel:   node   0: [mem 0x00000000876a0000-0x0000000087ffffff]
+2026-04-06T00:02:09.306640+00:00 linux kernel: Initmem setup node 0 [mem 0x0000000008000000-0x0000000087ffffff]
+2026-04-06T00:02:09.306640+00:00 linux kernel: cma: Reserved 32 MiB at 0x0000000081000000 on node -1
+2026-04-06T00:02:09.306640+00:00 linux kernel: psci: probing for conduit method from ACPI.
+2026-04-06T00:02:09.306641+00:00 linux kernel: psci: PSCIv1.2 detected in firmware.
+2026-04-06T00:02:09.306641+00:00 linux kernel: psci: Using standard PSCI v0.2 function IDs
+2026-04-06T00:02:09.306641+00:00 linux kernel: psci: Trusted OS migration not required
+2026-04-06T00:02:09.306641+00:00 linux kernel: psci: SMC Calling Convention v1.0
+2026-04-06T00:02:09.306642+00:00 linux kernel: percpu: Embedded 54 pages/cpu s95016 r8192 d117976 u221184
+2026-04-06T00:02:09.306642+00:00 linux kernel: pcpu-alloc: s95016 r8192 d117976 u221184 alloc=54*4096
+2026-04-06T00:02:09.306643+00:00 linux kernel: pcpu-alloc: [0] 0 [0] 1 
+2026-04-06T00:02:09.306643+00:00 linux kernel: Detected PIPT I-cache on CPU0
+2026-04-06T00:02:09.306643+00:00 linux kernel: CPU features: detected: Address authentication (IMP DEF algorithm)
+2026-04-06T00:02:09.306643+00:00 linux kernel: CPU features: detected: GIC system register CPU interface
+2026-04-06T00:02:09.306644+00:00 linux kernel: CPU features: detected: Spectre-v4
+2026-04-06T00:02:09.306644+00:00 linux kernel: CPU features: detected: Spectre-BHB
+2026-04-06T00:02:09.306644+00:00 linux kernel: alternatives: applying boot alternatives
+2026-04-06T00:02:09.306647+00:00 linux kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-107-generic root=UUID=0cd6d496-d666-4aeb-bba2-8249e557d986 ro quiet splash noprompt noshell automatic-ubiquity debian-installer/locale=en_US keyboard-configuration/layoutcode=us languagechooser/language-name=English localechooser/supported-locales=en_US.UTF-8 countrychooser/shortlist=US -- vt.handoff=7
+2026-04-06T00:02:09.306648+00:00 linux kernel: Unknown kernel command line parameters "splash noprompt noshell automatic-ubiquity debian-installer/locale=en_US keyboard-configuration/layoutcode=us languagechooser/language-name=English localechooser/supported-locales=en_US.UTF-8 countrychooser/shortlist=US", will be passed to user space.
+2026-04-06T00:02:09.306648+00:00 linux kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2026-04-06T00:02:09.306648+00:00 linux kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-04-06T00:02:09.306648+00:00 linux kernel: Fallback order for Node 0: 0 
+2026-04-06T00:02:09.306649+00:00 linux kernel: Built 1 zonelists, mobility grouping on.  Total pages: 516096
+2026-04-06T00:02:09.306649+00:00 linux kernel: Policy zone: DMA
+2026-04-06T00:02:09.306650+00:00 linux kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2026-04-06T00:02:09.306650+00:00 linux kernel: software IO TLB: SWIOTLB bounce buffer size adjusted to 2MB
+2026-04-06T00:02:09.306650+00:00 linux kernel: software IO TLB: area num 2.
+2026-04-06T00:02:09.306650+00:00 linux kernel: software IO TLB: mapped [mem 0x00000000870c0000-0x00000000872c0000] (2MB)
+2026-04-06T00:02:09.306651+00:00 linux kernel: Memory: 1877156K/2097152K available (23488K kernel code, 5208K rwdata, 16440K rodata, 12288K init, 1233K bss, 187228K reserved, 32768K cma-reserved)
+2026-04-06T00:02:09.306651+00:00 linux kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2026-04-06T00:02:09.306652+00:00 linux kernel: ftrace: allocating 63084 entries in 247 pages
+2026-04-06T00:02:09.306652+00:00 linux kernel: ftrace: allocated 247 pages with 7 groups
+2026-04-06T00:02:09.306652+00:00 linux kernel: Dynamic Preempt: voluntary
+2026-04-06T00:02:09.306652+00:00 linux kernel: rcu: Preemptible hierarchical RCU implementation.
+2026-04-06T00:02:09.306653+00:00 linux kernel: rcu: 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=2.
+2026-04-06T00:02:09.306653+00:00 linux kernel: 	Trampoline variant of Tasks RCU enabled.
+2026-04-06T00:02:09.306654+00:00 linux kernel: 	Rude variant of Tasks RCU enabled.
+2026-04-06T00:02:09.306654+00:00 linux kernel: 	Tracing variant of Tasks RCU enabled.
+2026-04-06T00:02:09.306654+00:00 linux kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2026-04-06T00:02:09.306655+00:00 linux kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2026-04-06T00:02:09.306655+00:00 linux kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-06T00:02:09.306660+00:00 linux kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-06T00:02:09.306660+00:00 linux kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-06T00:02:09.306660+00:00 linux kernel: NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+2026-04-06T00:02:09.306661+00:00 linux kernel: GICv3: 988 SPIs implemented
+2026-04-06T00:02:09.306661+00:00 linux kernel: GICv3: 1024 Extended SPIs implemented
+2026-04-06T00:02:09.306661+00:00 linux kernel: Root IRQ handler: gic_handle_irq
+2026-04-06T00:02:09.306661+00:00 linux kernel: GICv3: GICv3 features: 80 PPIs, RSS
+2026-04-06T00:02:09.306662+00:00 linux kernel: GICv3: CPU0: found redistributor 0 region 0:0x00000000fcd40000
+2026-04-06T00:02:09.306662+00:00 linux kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-04-06T00:02:09.306663+00:00 linux kernel: arch_timer: cp15 timer(s) running at 24.00MHz (virt).
+2026-04-06T00:02:09.306663+00:00 linux kernel: clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+2026-04-06T00:02:09.306663+00:00 linux kernel: sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+2026-04-06T00:02:09.306664+00:00 linux kernel: Console: colour dummy device 80x25
+2026-04-06T00:02:09.306664+00:00 linux kernel: printk: legacy console [tty0] enabled
+2026-04-06T00:02:09.306664+00:00 linux kernel: ACPI: Core revision 20230628
+2026-04-06T00:02:09.306665+00:00 linux kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=24000)
+2026-04-06T00:02:09.306665+00:00 linux kernel: pid_max: default: 32768 minimum: 301
+2026-04-06T00:02:09.306665+00:00 linux kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+2026-04-06T00:02:09.306666+00:00 linux kernel: landlock: Up and running.
+2026-04-06T00:02:09.306666+00:00 linux kernel: Yama: becoming mindful.
+2026-04-06T00:02:09.306667+00:00 linux kernel: AppArmor: AppArmor initialized
+2026-04-06T00:02:09.306667+00:00 linux kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-04-06T00:02:09.306667+00:00 linux kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-04-06T00:02:09.306667+00:00 linux kernel: ACPI PPTT: No PPTT table found, CPU and cache topology may be inaccurate
+2026-04-06T00:02:09.306668+00:00 linux kernel: cacheinfo: Unable to detect cache hierarchy for CPU 0
+2026-04-06T00:02:09.306671+00:00 linux kernel: rcu: Hierarchical SRCU implementation.
+2026-04-06T00:02:09.306671+00:00 linux kernel: rcu: 	Max phase no-delay instances is 400.
+2026-04-06T00:02:09.306852+00:00 linux kernel: Remapping and enabling EFI services.
+2026-04-06T00:02:09.306852+00:00 linux kernel: smp: Bringing up secondary CPUs ...
+2026-04-06T00:02:09.306853+00:00 linux kernel: Detected PIPT I-cache on CPU1
+2026-04-06T00:02:09.306853+00:00 linux kernel: GICv3: CPU1: found redistributor 1 region 0:0x00000000fcd60000
+2026-04-06T00:02:09.306853+00:00 linux kernel: CPU1: Booted secondary processor 0x0000000001 [0x610f0000]
+2026-04-06T00:02:09.306854+00:00 linux kernel: smp: Brought up 1 node, 2 CPUs
+2026-04-06T00:02:09.306854+00:00 linux kernel: SMP: Total of 2 processors activated.
+2026-04-06T00:02:09.306855+00:00 linux kernel: CPU: All CPU(s) started at EL1
+2026-04-06T00:02:09.306855+00:00 linux kernel: CPU features: detected: ARMv8.4 Translation Table Level
+2026-04-06T00:02:09.306855+00:00 linux kernel: CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+2026-04-06T00:02:09.306855+00:00 linux kernel: CPU features: detected: Common not Private translations
+2026-04-06T00:02:09.306856+00:00 linux kernel: CPU features: detected: CRC32 instructions
+2026-04-06T00:02:09.306856+00:00 linux kernel: CPU features: detected: Data cache clean to Point of Deep Persistence
+2026-04-06T00:02:09.306857+00:00 linux kernel: CPU features: detected: Data cache clean to Point of Persistence
+2026-04-06T00:02:09.306857+00:00 linux kernel: CPU features: detected: Data independent timing control (DIT)
+2026-04-06T00:02:09.306857+00:00 linux kernel: CPU features: detected: E0PD
+2026-04-06T00:02:09.306858+00:00 linux kernel: CPU features: detected: Fine Grained Traps
+2026-04-06T00:02:09.306858+00:00 linux kernel: CPU features: detected: Generic authentication (IMP DEF algorithm)
+2026-04-06T00:02:09.306861+00:00 linux kernel: CPU features: detected: RCpc load-acquire (LDAPR)
+2026-04-06T00:02:09.306861+00:00 linux kernel: CPU features: detected: LSE atomic instructions
+2026-04-06T00:02:09.306862+00:00 linux kernel: CPU features: detected: Privileged Access Never
+2026-04-06T00:02:09.306862+00:00 linux kernel: CPU features: detected: RAS Extension Support
+2026-04-06T00:02:09.306862+00:00 linux kernel: CPU features: detected: Speculation barrier (SB)
+2026-04-06T00:02:09.306862+00:00 linux kernel: CPU features: detected: TLB range maintenance instructions
+2026-04-06T00:02:09.306863+00:00 linux kernel: CPU features: detected: Speculative Store Bypassing Safe (SSBS)
+2026-04-06T00:02:09.306863+00:00 linux kernel: alternatives: applying system-wide alternatives
+2026-04-06T00:02:09.306864+00:00 linux kernel: devtmpfs: initialized
+2026-04-06T00:02:09.306864+00:00 linux kernel: setend instruction emulation is not supported on this system
+2026-04-06T00:02:09.306864+00:00 linux kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2026-04-06T00:02:09.306864+00:00 linux kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-04-06T00:02:09.306865+00:00 linux kernel: pinctrl core: initialized pinctrl subsystem
+2026-04-06T00:02:09.306865+00:00 linux kernel: DMI not present or invalid.
+2026-04-06T00:02:09.306866+00:00 linux kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-04-06T00:02:09.306866+00:00 linux kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+2026-04-06T00:02:09.306866+00:00 linux kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2026-04-06T00:02:09.306866+00:00 linux kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-04-06T00:02:09.306867+00:00 linux kernel: audit: initializing netlink subsys (disabled)
+2026-04-06T00:02:09.306867+00:00 linux kernel: audit: type=2000 audit(0.011:1): state=initialized audit_enabled=0 res=1
+2026-04-06T00:02:09.306868+00:00 linux kernel: thermal_sys: Registered thermal governor 'fair_share'
+2026-04-06T00:02:09.306868+00:00 linux kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2026-04-06T00:02:09.306868+00:00 linux kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-04-06T00:02:09.306868+00:00 linux kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-04-06T00:02:09.306869+00:00 linux kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2026-04-06T00:02:09.306873+00:00 linux kernel: cpuidle: using governor ladder
+2026-04-06T00:02:09.306873+00:00 linux kernel: cpuidle: using governor menu
+2026-04-06T00:02:09.306874+00:00 linux kernel: hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+2026-04-06T00:02:09.306874+00:00 linux kernel: ASID allocator initialised with 256 entries
+2026-04-06T00:02:09.306874+00:00 linux kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-04-06T00:02:09.306874+00:00 linux kernel: Serial: AMBA PL011 UART driver
+2026-04-06T00:02:09.306874+00:00 linux kernel: Modules: 18048 pages in range for non-PLT usage
+2026-04-06T00:02:09.306875+00:00 linux kernel: Modules: 509568 pages in range for PLT usage
+2026-04-06T00:02:09.306875+00:00 linux kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+2026-04-06T00:02:09.306876+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+2026-04-06T00:02:09.306876+00:00 linux kernel: HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+2026-04-06T00:02:09.306876+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+2026-04-06T00:02:09.306876+00:00 linux kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-04-06T00:02:09.306877+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+2026-04-06T00:02:09.306878+00:00 linux kernel: HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+2026-04-06T00:02:09.306878+00:00 linux kernel: HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+2026-04-06T00:02:09.306878+00:00 linux kernel: ACPI: Added _OSI(Module Device)
+2026-04-06T00:02:09.306890+00:00 linux kernel: ACPI: Added _OSI(Processor Device)
+2026-04-06T00:02:09.306890+00:00 linux kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-04-06T00:02:09.306891+00:00 linux kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+2026-04-06T00:02:09.306891+00:00 linux kernel: ACPI: Interpreter enabled
+2026-04-06T00:02:09.306892+00:00 linux kernel: ACPI: Using GIC for interrupt routing
+2026-04-06T00:02:09.306892+00:00 linux kernel: ACPI: MCFG table detected, 1 entries
+2026-04-06T00:02:09.306892+00:00 linux kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-0f])
+2026-04-06T00:02:09.306892+00:00 linux kernel: acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+2026-04-06T00:02:09.306893+00:00 linux kernel: acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+2026-04-06T00:02:09.306896+00:00 linux kernel: acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+2026-04-06T00:02:09.306896+00:00 linux kernel: acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_NOT_FOUND)
+2026-04-06T00:02:09.306896+00:00 linux kernel: acpi PNP0A08:00: ECAM area [mem 0xfedde000-0xffdddfff] reserved by PNP0C02:00
+2026-04-06T00:02:09.306897+00:00 linux kernel: acpi PNP0A08:00: ECAM at [mem 0xfedde000-0xffdddfff] for [bus 00-0f]
+2026-04-06T00:02:09.306897+00:00 linux kernel: ACPI: Remapped I/O 0x00000000fcd20000 to [io  0x0000-0xffff window]
+2026-04-06T00:02:09.306897+00:00 linux kernel: PCI host bridge to bus 0000:00
+2026-04-06T00:02:09.306898+00:00 linux kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xffff window]
+2026-04-06T00:02:09.306898+00:00 linux kernel: pci_bus 0000:00: root bus resource [mem 0x88000000-0x97ffffff window]
+2026-04-06T00:02:09.306898+00:00 linux kernel: pci_bus 0000:00: root bus resource [mem 0xfcd20000-0xfcd2ffff window]
+2026-04-06T00:02:09.306898+00:00 linux kernel: pci_bus 0000:00: root bus resource [bus 00-0f]
+2026-04-06T00:02:09.306899+00:00 linux kernel: pci 0000:00:00.0: [15ad:0406] type 00 class 0x030000 conventional PCI endpoint
+2026-04-06T00:02:09.306900+00:00 linux kernel: pci 0000:00:00.0: BAR 0 [mem 0x89400000-0x897fffff]
+2026-04-06T00:02:09.306900+00:00 linux kernel: pci 0000:00:00.0: BAR 2 [mem 0x88000000-0x88ffffff pref]
+2026-04-06T00:02:09.306900+00:00 linux kernel: pci 0000:00:01.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2026-04-06T00:02:09.306901+00:00 linux kernel: pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
+2026-04-06T00:02:09.306901+00:00 linux kernel: pci 0000:00:01.0: BAR 1 [mem 0x89000000-0x893fffff]
+2026-04-06T00:02:09.306901+00:00 linux kernel: pci 0000:00:01.0: BAR 3 [mem 0x89836000-0x89836fff]
+2026-04-06T00:02:09.306901+00:00 linux kernel: pci 0000:00:02.0: [8086:2668] type 00 class 0x040300 conventional PCI endpoint
+2026-04-06T00:02:09.306902+00:00 linux kernel: pci 0000:00:02.0: BAR 0 [mem 0x89830000-0x89833fff]
+2026-04-06T00:02:09.306908+00:00 linux kernel: pci 0000:00:03.0: [1af4:1048] type 00 class 0x010000 conventional PCI endpoint
+2026-04-06T00:02:09.306908+00:00 linux kernel: pci 0000:00:03.0: BAR 2 [mem 0x89834000-0x89835fff]
+2026-04-06T00:02:09.306909+00:00 linux kernel: pci 0000:00:04.0: [8086:2448] type 01 class 0x060401 conventional PCI bridge
+2026-04-06T00:02:09.306909+00:00 linux kernel: pci 0000:00:04.0: PCI bridge to [bus 01] (subtractive decode)
+2026-04-06T00:02:09.306909+00:00 linux kernel: pci 0000:00:06.0: [8086:1e31] type 00 class 0x0c0330 conventional PCI endpoint
+2026-04-06T00:02:09.306910+00:00 linux kernel: pci 0000:00:06.0: BAR 0 [mem 0x89820000-0x8982ffff]
+2026-04-06T00:02:09.306910+00:00 linux kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-04-06T00:02:09.306911+00:00 linux kernel: pci 0000:00:08.0: BAR 0 [mem 0x89800000-0x8981ffff]
+2026-04-06T00:02:09.306911+00:00 linux kernel: pci 0000:00:08.0: BAR 2 [io  0x0020-0x0027]
+2026-04-06T00:02:09.306911+00:00 linux kernel: pci_bus 0000:01: extended config space not accessible
+2026-04-06T00:02:09.306911+00:00 linux kernel: pci 0000:00:00.0: BAR 2 [mem 0x88000000-0x88ffffff pref]: assigned
+2026-04-06T00:02:09.306912+00:00 linux kernel: pci 0000:00:00.0: BAR 0 [mem 0x89000000-0x893fffff]: assigned
+2026-04-06T00:02:09.306912+00:00 linux kernel: pci 0000:00:01.0: BAR 1 [mem 0x89400000-0x897fffff]: assigned
+2026-04-06T00:02:09.306916+00:00 linux kernel: pci 0000:00:08.0: BAR 0 [mem 0x89800000-0x8981ffff]: assigned
+2026-04-06T00:02:09.306917+00:00 linux kernel: pci 0000:00:06.0: BAR 0 [mem 0x89820000-0x8982ffff]: assigned
+2026-04-06T00:02:09.306917+00:00 linux kernel: pci 0000:00:02.0: BAR 0 [mem 0x89830000-0x89833fff]: assigned
+2026-04-06T00:02:09.306917+00:00 linux kernel: pci 0000:00:03.0: BAR 2 [mem 0x89834000-0x89835fff]: assigned
+2026-04-06T00:02:09.306917+00:00 linux kernel: pci 0000:00:01.0: BAR 3 [mem 0x89836000-0x89836fff]: assigned
+2026-04-06T00:02:09.306918+00:00 linux kernel: pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
+2026-04-06T00:02:09.306919+00:00 linux kernel: pci 0000:00:08.0: BAR 2 [io  0x1020-0x1027]: assigned
+2026-04-06T00:02:09.306919+00:00 linux kernel: pci 0000:00:04.0: PCI bridge to [bus 01]
+2026-04-06T00:02:09.306941+00:00 linux kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xffff window]
+2026-04-06T00:02:09.306942+00:00 linux kernel: pci_bus 0000:00: resource 5 [mem 0x88000000-0x97ffffff window]
+2026-04-06T00:02:09.306942+00:00 linux kernel: pci_bus 0000:00: resource 6 [mem 0xfcd20000-0xfcd2ffff window]
+2026-04-06T00:02:09.306942+00:00 linux kernel: iommu: Default domain type: Translated
+2026-04-06T00:02:09.306946+00:00 linux kernel: iommu: DMA domain TLB invalidation policy: strict mode
+2026-04-06T00:02:09.306946+00:00 linux kernel: SCSI subsystem initialized
+2026-04-06T00:02:09.306946+00:00 linux kernel: libata version 3.00 loaded.
+2026-04-06T00:02:09.306947+00:00 linux kernel: ACPI: bus type USB registered
+2026-04-06T00:02:09.306947+00:00 linux kernel: usbcore: registered new interface driver usbfs
+2026-04-06T00:02:09.306947+00:00 linux kernel: usbcore: registered new interface driver hub
+2026-04-06T00:02:09.306947+00:00 linux kernel: usbcore: registered new device driver usb
+2026-04-06T00:02:09.306949+00:00 linux kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-04-06T00:02:09.306949+00:00 linux kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-04-06T00:02:09.306949+00:00 linux kernel: PTP clock support registered
+2026-04-06T00:02:09.306949+00:00 linux kernel: EDAC MC: Ver: 3.0.0
+2026-04-06T00:02:09.306950+00:00 linux kernel: scmi_core: SCMI protocol bus registered
+2026-04-06T00:02:09.306950+00:00 linux kernel: efivars: Registered efivars operations
+2026-04-06T00:02:09.306951+00:00 linux kernel: NetLabel: Initializing
+2026-04-06T00:02:09.306951+00:00 linux kernel: NetLabel:  domain hash size = 128
+2026-04-06T00:02:09.306951+00:00 linux kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-04-06T00:02:09.306952+00:00 linux kernel: NetLabel:  unlabeled traffic allowed by default
+2026-04-06T00:02:09.306952+00:00 linux kernel: mctp: management component transport protocol core
+2026-04-06T00:02:09.306952+00:00 linux kernel: NET: Registered PF_MCTP protocol family
+2026-04-06T00:02:09.306952+00:00 linux kernel: pci 0000:00:00.0: vgaarb: setting as boot VGA device
+2026-04-06T00:02:09.306954+00:00 linux kernel: pci 0000:00:00.0: vgaarb: bridge control possible
+2026-04-06T00:02:09.306954+00:00 linux kernel: pci 0000:00:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2026-04-06T00:02:09.306955+00:00 linux kernel: vgaarb: loaded
+2026-04-06T00:02:09.306955+00:00 linux kernel: clocksource: Switched to clocksource arch_sys_counter
+2026-04-06T00:02:09.306955+00:00 linux kernel: VFS: Disk quotas dquot_6.6.0
+2026-04-06T00:02:09.306955+00:00 linux kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-04-06T00:02:09.306958+00:00 linux kernel: AppArmor: AppArmor Filesystem Enabled
+2026-04-06T00:02:09.306959+00:00 linux kernel: pnp: PnP ACPI init
+2026-04-06T00:02:09.306959+00:00 linux kernel: system 00:00: [mem 0xfedde000-0xffdddfff window] could not be reserved
+2026-04-06T00:02:09.306959+00:00 linux kernel: pnp: PnP ACPI: found 1 devices
+2026-04-06T00:02:09.306960+00:00 linux kernel: NET: Registered PF_INET protocol family
+2026-04-06T00:02:09.306960+00:00 linux kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-04-06T00:02:09.306961+00:00 linux kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+2026-04-06T00:02:09.306961+00:00 linux kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-04-06T00:02:09.306962+00:00 linux kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2026-04-06T00:02:09.306962+00:00 linux kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+2026-04-06T00:02:09.306962+00:00 linux kernel: TCP: Hash tables configured (established 16384 bind 16384)
+2026-04-06T00:02:09.306962+00:00 linux kernel: MPTCP token hash table entries: 2048 (order: 4, 49152 bytes, linear)
+2026-04-06T00:02:09.306963+00:00 linux kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-04-06T00:02:09.306964+00:00 linux kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-04-06T00:02:09.306964+00:00 linux kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-04-06T00:02:09.306964+00:00 linux kernel: NET: Registered PF_XDP protocol family
+2026-04-06T00:02:09.306964+00:00 linux kernel: pci 0000:00:06.0: enabling device (0010 -> 0012)
+2026-04-06T00:02:09.306965+00:00 linux kernel: PCI: CLS 0 bytes, default 64
+2026-04-06T00:02:09.306965+00:00 linux kernel: Trying to unpack rootfs image as initramfs...
+2026-04-06T00:02:09.306966+00:00 linux kernel: kvm [1]: HYP mode not available
+2026-04-06T00:02:09.306966+00:00 linux kernel: Initialise system trusted keyrings
+2026-04-06T00:02:09.306967+00:00 linux kernel: Key type blacklist registered
+2026-04-06T00:02:09.306967+00:00 linux kernel: workingset: timestamp_bits=40 max_order=19 bucket_order=0
+2026-04-06T00:02:09.306967+00:00 linux kernel: zbud: loaded
+2026-04-06T00:02:09.306967+00:00 linux kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2026-04-06T00:02:09.306968+00:00 linux kernel: fuse: init (API version 7.39)
+2026-04-06T00:02:09.306971+00:00 linux kernel: integrity: Platform Keyring initialized
+2026-04-06T00:02:09.306971+00:00 linux kernel: integrity: Machine keyring initialized
+2026-04-06T00:02:09.306972+00:00 linux kernel: Key type asymmetric registered
+2026-04-06T00:02:09.306972+00:00 linux kernel: Asymmetric key parser 'x509' registered
+2026-04-06T00:02:09.306972+00:00 linux kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+2026-04-06T00:02:09.306972+00:00 linux kernel: io scheduler mq-deadline registered
+2026-04-06T00:02:09.306974+00:00 linux kernel: pl061_gpio ARMH0061:00: PL061 GPIO chip registered
+2026-04-06T00:02:09.306974+00:00 linux kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2026-04-06T00:02:09.306974+00:00 linux kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+2026-04-06T00:02:09.306974+00:00 linux kernel: msm_serial: driver initialized
+2026-04-06T00:02:09.306975+00:00 linux kernel: SuperH (H)SCI(F) driver initialized
+2026-04-06T00:02:09.306975+00:00 linux kernel: loop: module loaded
+2026-04-06T00:02:09.306976+00:00 linux kernel: virtio_scsi virtio0: 2/0/0 default/read/poll queues
+2026-04-06T00:02:09.306976+00:00 linux kernel: scsi host0: Virtio SCSI HBA
+2026-04-06T00:02:09.306976+00:00 linux kernel: ACPI: bus type drm_connector registered
+2026-04-06T00:02:09.306977+00:00 linux kernel: tun: Universal TUN/TAP device driver, 1.6
+2026-04-06T00:02:09.306977+00:00 linux kernel: scsi 0:0:0:0: Direct-Access     VBOX     HARDDISK         1.0  PQ: 0 ANSI: 5
+2026-04-06T00:02:09.306977+00:00 linux kernel: PPP generic driver version 2.4.2
+2026-04-06T00:02:09.306977+00:00 linux kernel: mousedev: PS/2 mouse device common for all mice
+2026-04-06T00:02:09.306978+00:00 linux kernel: rtc-efi rtc-efi.0: registered as rtc0
+2026-04-06T00:02:09.306979+00:00 linux kernel: rtc-efi rtc-efi.0: setting system clock to 2026-04-06T00:02:05 UTC (1775433725)
+2026-04-06T00:02:09.306979+00:00 linux kernel: i2c_dev: i2c /dev entries driver
+2026-04-06T00:02:09.306979+00:00 linux kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2026-04-06T00:02:09.306980+00:00 linux kernel: device-mapper: uevent: version 1.0.3
+2026-04-06T00:02:09.306980+00:00 linux kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+2026-04-06T00:02:09.306983+00:00 linux kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2026-04-06T00:02:09.306983+00:00 linux kernel: [drm] Initialized simpledrm 1.0.0 20200625 for simple-framebuffer.0 on minor 0
+2026-04-06T00:02:09.306984+00:00 linux kernel: fbcon: Deferring console take-over
+2026-04-06T00:02:09.306984+00:00 linux kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+2026-04-06T00:02:09.306984+00:00 linux kernel: No ACPI PMU IRQ for CPU0
+2026-04-06T00:02:09.306984+00:00 linux kernel: No ACPI PMU IRQ for CPU1
+2026-04-06T00:02:09.306985+00:00 linux kernel: drop_monitor: Initializing network drop monitor service
+2026-04-06T00:02:09.306986+00:00 linux kernel: NET: Registered PF_INET6 protocol family
+2026-04-06T00:02:09.306986+00:00 linux kernel: scsi 0:0:1:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2026-04-06T00:02:09.306986+00:00 linux kernel: scsi 0:0:2:0: Direct-Access     VBOX     HARDDISK         1.0  PQ: 0 ANSI: 5
+2026-04-06T00:02:09.306987+00:00 linux kernel: scsi 0:0:0:0: Attached scsi generic sg0 type 0
+2026-04-06T00:02:09.306987+00:00 linux kernel: sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+2026-04-06T00:02:09.306987+00:00 linux kernel: sd 0:0:0:0: [sda] Write Protect is off
+2026-04-06T00:02:09.306988+00:00 linux kernel: sd 0:0:0:0: [sda] Mode Sense: 0f 00 10 00
+2026-04-06T00:02:09.306988+00:00 linux kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, supports DPO and FUA
+2026-04-06T00:02:09.306989+00:00 linux kernel: sr 0:0:1:0: [sr0] scsi-1 drive
+2026-04-06T00:02:09.306989+00:00 linux kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2026-04-06T00:02:09.306989+00:00 linux kernel: sr 0:0:1:0: Attached scsi CD-ROM sr0
+2026-04-06T00:02:09.306989+00:00 linux kernel: sr 0:0:1:0: Attached scsi generic sg1 type 5
+2026-04-06T00:02:09.306991+00:00 linux kernel: scsi 0:0:2:0: Attached scsi generic sg2 type 0
+2026-04-06T00:02:09.306991+00:00 linux kernel: sd 0:0:2:0: [sdb] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+2026-04-06T00:02:09.306991+00:00 linux kernel: sd 0:0:2:0: [sdb] Write Protect is off
+2026-04-06T00:02:09.306991+00:00 linux kernel: sd 0:0:2:0: [sdb] Mode Sense: 0f 00 10 00
+2026-04-06T00:02:09.306992+00:00 linux kernel: sd 0:0:2:0: [sdb] Write cache: enabled, read cache: enabled, supports DPO and FUA
+2026-04-06T00:02:09.306992+00:00 linux kernel:  sda: sda1 sda2
+2026-04-06T00:02:09.306992+00:00 linux kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+2026-04-06T00:02:09.306995+00:00 linux kernel: Freeing initrd memory: 78364K
+2026-04-06T00:02:09.306996+00:00 linux kernel: Segment Routing with IPv6
+2026-04-06T00:02:09.306996+00:00 linux kernel: In-situ OAM (IOAM) with IPv6
+2026-04-06T00:02:09.306996+00:00 linux kernel: NET: Registered PF_PACKET protocol family
+2026-04-06T00:02:09.306996+00:00 linux kernel: Key type dns_resolver registered
+2026-04-06T00:02:09.306997+00:00 linux kernel: registered taskstats version 1
+2026-04-06T00:02:09.306998+00:00 linux kernel: Loading compiled-in X.509 certificates
+2026-04-06T00:02:09.306998+00:00 linux kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 383499898a60c99164d2c06e4aaccebd7b6898f9'
+2026-04-06T00:02:09.306998+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+2026-04-06T00:02:09.306999+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2026-04-06T00:02:09.306999+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2026-04-06T00:02:09.306999+00:00 linux kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2026-04-06T00:02:09.307022+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2026-04-06T00:02:09.307022+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2026-04-06T00:02:09.307022+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2026-04-06T00:02:09.307023+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2026-04-06T00:02:09.307023+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2026-04-06T00:02:09.307023+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2026-04-06T00:02:09.307024+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2026-04-06T00:02:09.307024+00:00 linux kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2026-04-06T00:02:09.307025+00:00 linux kernel: Key type .fscrypt registered
+2026-04-06T00:02:09.307025+00:00 linux kernel: Key type fscrypt-provisioning registered
+2026-04-06T00:02:09.307025+00:00 linux kernel:  sdb: sdb1
+2026-04-06T00:02:09.307025+00:00 linux kernel: sd 0:0:2:0: [sdb] Attached SCSI disk
+2026-04-06T00:02:09.307028+00:00 linux kernel: Key type encrypted registered
+2026-04-06T00:02:09.307029+00:00 linux kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2026-04-06T00:02:09.307029+00:00 linux kernel: ima: secureboot mode disabled
+2026-04-06T00:02:09.307029+00:00 linux kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-04-06T00:02:09.307029+00:00 linux kernel: Loading compiled-in module X.509 certificates
+2026-04-06T00:02:09.307030+00:00 linux kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 383499898a60c99164d2c06e4aaccebd7b6898f9'
+2026-04-06T00:02:09.307031+00:00 linux kernel: ima: Allocated hash algorithm: sha256
+2026-04-06T00:02:09.307031+00:00 linux kernel: ima: No architecture policies found
+2026-04-06T00:02:09.307031+00:00 linux kernel: evm: Initialising EVM extended attributes:
+2026-04-06T00:02:09.307032+00:00 linux kernel: evm: security.selinux
+2026-04-06T00:02:09.307032+00:00 linux kernel: evm: security.SMACK64
+2026-04-06T00:02:09.307032+00:00 linux kernel: evm: security.SMACK64EXEC
+2026-04-06T00:02:09.307033+00:00 linux kernel: evm: security.SMACK64TRANSMUTE
+2026-04-06T00:02:09.307033+00:00 linux kernel: evm: security.SMACK64MMAP
+2026-04-06T00:02:09.307034+00:00 linux kernel: evm: security.apparmor
+2026-04-06T00:02:09.307034+00:00 linux kernel: evm: security.ima
+2026-04-06T00:02:09.307034+00:00 linux kernel: evm: security.capability
+2026-04-06T00:02:09.307034+00:00 linux kernel: evm: HMAC attrs: 0x1
+2026-04-06T00:02:09.307035+00:00 linux kernel: clk: Disabling unused clocks
+2026-04-06T00:02:09.307036+00:00 linux kernel: Freeing unused kernel memory: 12288K
+2026-04-06T00:02:09.307036+00:00 linux kernel: Checked W+X mappings: passed, no W+X pages found
+2026-04-06T00:02:09.307036+00:00 linux kernel: Run /init as init process
+2026-04-06T00:02:09.307037+00:00 linux kernel:   with arguments:
+2026-04-06T00:02:09.307037+00:00 linux kernel:     /init
+2026-04-06T00:02:09.307037+00:00 linux kernel:     splash
+2026-04-06T00:02:09.307040+00:00 linux kernel:     noprompt
+2026-04-06T00:02:09.307040+00:00 linux kernel:     noshell
+2026-04-06T00:02:09.307041+00:00 linux kernel:     automatic-ubiquity
+2026-04-06T00:02:09.307041+00:00 linux kernel:     vt.handoff=7
+2026-04-06T00:02:09.307041+00:00 linux kernel:   with environment:
+2026-04-06T00:02:09.307041+00:00 linux kernel:     HOME=/
+2026-04-06T00:02:09.307042+00:00 linux kernel:     TERM=linux
+2026-04-06T00:02:09.307043+00:00 linux kernel:     debian-installer/locale=en_US
+2026-04-06T00:02:09.307043+00:00 linux kernel:     keyboard-configuration/layoutcode=us
+2026-04-06T00:02:09.307043+00:00 linux kernel:     languagechooser/language-name=English
+2026-04-06T00:02:09.307044+00:00 linux kernel:     localechooser/supported-locales=en_US.UTF-8
+2026-04-06T00:02:09.307044+00:00 linux kernel:     countrychooser/shortlist=US
+2026-04-06T00:02:09.307044+00:00 linux kernel: e1000: Intel(R) PRO/1000 Network Driver
+2026-04-06T00:02:09.307045+00:00 linux kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2026-04-06T00:02:09.307045+00:00 linux kernel: e1000 0000:00:08.0: enabling device (0010 -> 0013)
+2026-04-06T00:02:09.307046+00:00 linux kernel: xhci_hcd 0000:00:06.0: xHCI Host Controller
+2026-04-06T00:02:09.307046+00:00 linux kernel: xhci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+2026-04-06T00:02:09.307046+00:00 linux kernel: xhci_hcd 0000:00:06.0: hcc params 0x04000000 hci version 0x100 quirks 0x000000000000b930
+2026-04-06T00:02:09.307046+00:00 linux kernel: xhci_hcd 0000:00:06.0: xHCI Host Controller
+2026-04-06T00:02:09.307047+00:00 linux kernel: xhci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 2
+2026-04-06T00:02:09.307048+00:00 linux kernel: xhci_hcd 0000:00:06.0: Host supports USB 3.0 SuperSpeed
+2026-04-06T00:02:09.307048+00:00 linux kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+2026-04-06T00:02:09.307048+00:00 linux kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-04-06T00:02:09.307049+00:00 linux kernel: usb usb1: Product: xHCI Host Controller
+2026-04-06T00:02:09.307049+00:00 linux kernel: usb usb1: Manufacturer: Linux 6.8.0-107-generic xhci-hcd
+2026-04-06T00:02:09.307049+00:00 linux kernel: usb usb1: SerialNumber: 0000:00:06.0
+2026-04-06T00:02:09.307052+00:00 linux kernel: hub 1-0:1.0: USB hub found
+2026-04-06T00:02:09.307053+00:00 linux kernel: hub 1-0:1.0: 8 ports detected
+2026-04-06T00:02:09.307053+00:00 linux kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.08
+2026-04-06T00:02:09.307053+00:00 linux kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-04-06T00:02:09.307053+00:00 linux kernel: usb usb2: Product: xHCI Host Controller
+2026-04-06T00:02:09.307054+00:00 linux kernel: usb usb2: Manufacturer: Linux 6.8.0-107-generic xhci-hcd
+2026-04-06T00:02:09.307055+00:00 linux kernel: usb usb2: SerialNumber: 0000:00:06.0
+2026-04-06T00:02:09.307055+00:00 linux kernel: hub 2-0:1.0: USB hub found
+2026-04-06T00:02:09.307055+00:00 linux kernel: hub 2-0:1.0: 6 ports detected
+2026-04-06T00:02:09.307055+00:00 linux kernel: usb 1-1: new full-speed USB device number 2 using xhci_hcd
+2026-04-06T00:02:09.307056+00:00 linux kernel: e1000 0000:00:08.0 eth0: (PCI:33MHz:32-bit) 08:00:27:8c:d8:aa
+2026-04-06T00:02:09.307056+00:00 linux kernel: e1000 0000:00:08.0 eth0: Intel(R) PRO/1000 Network Connection
+2026-04-06T00:02:09.307056+00:00 linux kernel: e1000 0000:00:08.0 enp0s8: renamed from eth0
+2026-04-06T00:02:09.307057+00:00 linux kernel: raid6: neonx8   gen() 37076 MB/s
+2026-04-06T00:02:09.307058+00:00 linux kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0010, bcdDevice= 1.00
+2026-04-06T00:02:09.307058+00:00 linux kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+2026-04-06T00:02:09.307058+00:00 linux kernel: usb 1-1: Product: USB Keyboard
+2026-04-06T00:02:09.307058+00:00 linux kernel: usb 1-1: Manufacturer: VirtualBox
+2026-04-06T00:02:09.307059+00:00 linux kernel: raid6: neonx4   gen() 37160 MB/s
+2026-04-06T00:02:09.307062+00:00 linux kernel: raid6: neonx2   gen() 37798 MB/s
+2026-04-06T00:02:09.307062+00:00 linux kernel: raid6: neonx1   gen() 35343 MB/s
+2026-04-06T00:02:09.307062+00:00 linux kernel: raid6: int64x8  gen() 14481 MB/s
+2026-04-06T00:02:09.307063+00:00 linux kernel: raid6: int64x4  gen() 12801 MB/s
+2026-04-06T00:02:09.307063+00:00 linux kernel: raid6: int64x2  gen() 11970 MB/s
+2026-04-06T00:02:09.307063+00:00 linux kernel: raid6: int64x1  gen() 10735 MB/s
+2026-04-06T00:02:09.307067+00:00 linux kernel: raid6: using algorithm neonx2 gen() 37798 MB/s
+2026-04-06T00:02:09.307068+00:00 linux kernel: usb 1-2: new full-speed USB device number 3 using xhci_hcd
+2026-04-06T00:02:09.307068+00:00 linux kernel: raid6: .... xor() 30735 MB/s, rmw enabled
+2026-04-06T00:02:09.307068+00:00 linux kernel: raid6: using neon recovery algorithm
+2026-04-06T00:02:09.307068+00:00 linux kernel: xor: measuring software checksum speed
+2026-04-06T00:02:09.307069+00:00 linux kernel:    8regs           : 21127 MB/sec
+2026-04-06T00:02:09.307069+00:00 linux kernel:    32regs          : 45832 MB/sec
+2026-04-06T00:02:09.307071+00:00 linux kernel:    arm64_neon      : 54154 MB/sec
+2026-04-06T00:02:09.307071+00:00 linux kernel: xor: using function: arm64_neon (54154 MB/sec)
+2026-04-06T00:02:09.307071+00:00 linux kernel: async_tx: api initialized (async)
+2026-04-06T00:02:09.307071+00:00 linux kernel: usb 1-2: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2026-04-06T00:02:09.307072+00:00 linux kernel: usb 1-2: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2026-04-06T00:02:09.307072+00:00 linux kernel: usb 1-2: Product: USB Tablet
+2026-04-06T00:02:09.307073+00:00 linux kernel: usb 1-2: Manufacturer: VirtualBox
+2026-04-06T00:02:09.307074+00:00 linux kernel: hid: raw HID events driver (C) Jiri Kosina
+2026-04-06T00:02:09.307074+00:00 linux kernel: usbcore: registered new interface driver usbhid
+2026-04-06T00:02:09.307074+00:00 linux kernel: usbhid: USB HID core driver
+2026-04-06T00:02:09.307074+00:00 linux kernel: input: VirtualBox USB Keyboard as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0010.0001/input/input0
+2026-04-06T00:02:09.307075+00:00 linux kernel: hid-generic 0003:80EE:0010.0001: input,hidraw0: USB HID v1.10 Keyboard [VirtualBox USB Keyboard] on usb-0000:00:06.0-1/input0
+2026-04-06T00:02:09.307076+00:00 linux kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-2/1-2:1.0/0003:80EE:0021.0002/input/input1
+2026-04-06T00:02:09.307076+00:00 linux kernel: hid-generic 0003:80EE:0021.0002: input,hidraw1: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-2/input0
+2026-04-06T00:02:09.307077+00:00 linux kernel: random: crng init done
+2026-04-06T00:02:09.307077+00:00 linux kernel: Btrfs loaded, zoned=yes, fsverity=yes
+2026-04-06T00:02:09.307077+00:00 linux kernel: EXT4-fs (sda2): mounted filesystem 0cd6d496-d666-4aeb-bba2-8249e557d986 ro with ordered data mode. Quota mode: none.
+2026-04-06T00:02:09.307148+00:00 linux kernel: pstore: Using crash dump compression: deflate
+2026-04-06T00:02:09.307148+00:00 linux kernel: pstore: Registered efi_pstore as persistent store backend
+2026-04-06T00:02:09.307153+00:00 linux kernel: EXT4-fs (sda2): re-mounted 0cd6d496-d666-4aeb-bba2-8249e557d986 r/w.
+2026-04-06T00:02:09.307155+00:00 linux kernel: loop0: detected capacity change from 0 to 8
+2026-04-06T00:02:09.307155+00:00 linux kernel: loop1: detected capacity change from 0 to 141184
+2026-04-06T00:02:09.307156+00:00 linux kernel: loop2: detected capacity change from 0 to 141200
+2026-04-06T00:02:09.307156+00:00 linux kernel: loop3: detected capacity change from 0 to 126776
+2026-04-06T00:02:09.307157+00:00 linux kernel: loop4: detected capacity change from 0 to 543088
+2026-04-06T00:02:09.307157+00:00 linux kernel: loop5: detected capacity change from 0 to 483472
+2026-04-06T00:02:09.307158+00:00 linux kernel: loop6: detected capacity change from 0 to 1030064
+2026-04-06T00:02:09.307158+00:00 linux kernel: loop7: detected capacity change from 0 to 1132440
+2026-04-06T00:02:09.307158+00:00 linux kernel: loop8: detected capacity change from 0 to 187776
+2026-04-06T00:02:09.307158+00:00 linux kernel: loop10: detected capacity change from 0 to 85200
+2026-04-06T00:02:09.307160+00:00 linux kernel: loop9: detected capacity change from 0 to 357512
+2026-04-06T00:02:09.307160+00:00 linux kernel: loop11: detected capacity change from 0 to 448816
+2026-04-06T00:02:09.307160+00:00 linux kernel: loop12: detected capacity change from 0 to 452584
+2026-04-06T00:02:09.307160+00:00 linux kernel: soc_button_array ACPI0011:00: Unknown button index 1 upage 01 usage 82, ignoring
+2026-04-06T00:02:09.307161+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Register MMIO at 0x0x0000000089000000 size is 4096 kiB
+2026-04-06T00:02:09.307161+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] VRAM at 0x0000000088000000 size is 16384 kiB
+2026-04-06T00:02:09.307161+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Running on SVGA version 3.
+2026-04-06T00:02:09.307165+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, 
+2026-04-06T00:02:09.307166+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] DMA map mode: Caching DMA mappings.
+2026-04-06T00:02:09.307166+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 2048 kB, surface = 507904 kB
+2026-04-06T00:02:09.307166+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] MOB limits: max mob size = 131072 kB, max mob pages = 4096
+2026-04-06T00:02:09.307166+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Max GMR ids is 8192
+2026-04-06T00:02:09.307167+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Max number of GMR pages is 1048576
+2026-04-06T00:02:09.307168+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Maximum display memory size is 16384 kiB
+2026-04-06T00:02:09.307168+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Screen Target display unit initialized
+2026-04-06T00:02:09.307168+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Using command buffers with DMA pool.
+2026-04-06T00:02:09.307169+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] Available shader model: Legacy.
+2026-04-06T00:02:09.307169+00:00 linux kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+2026-04-06T00:02:09.307169+00:00 linux kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:00.0 on minor 1
+2026-04-06T00:02:09.307170+00:00 linux kernel: fbcon: Deferring console take-over
+2026-04-06T00:02:09.307178+00:00 linux kernel: vmwgfx 0000:00:00.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2026-04-06T00:02:09.307178+00:00 linux kernel: input: gpio-keys as /devices/platform/ACPI0011:00/gpio-keys.1.auto/input/input2
+2026-04-06T00:02:09.307178+00:00 linux kernel: snd_hda_intel 0000:00:02.0: enabling device (0010 -> 0012)
+2026-04-06T00:02:09.307179+00:00 linux kernel: snd_hda_intel 0000:00:02.0: Force to snoop mode by module option
+2026-04-06T00:02:09.307179+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0: autoconfig for STAC9221 A1: line_outs=3 (0xc/0xf/0xb/0x0/0x0) type:speaker
+2026-04-06T00:02:09.307180+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+2026-04-06T00:02:09.307180+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    hp_outs=1 (0xa/0x0/0x0/0x0/0x0)
+2026-04-06T00:02:09.307181+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    mono: mono_out=0x0
+2026-04-06T00:02:09.307181+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    dig-out=0x10/0x0
+2026-04-06T00:02:09.307181+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    inputs:
+2026-04-06T00:02:09.307181+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:      Mic=0xd
+2026-04-06T00:02:09.307182+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:      Line=0xe
+2026-04-06T00:02:09.307185+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:      CD=0x15
+2026-04-06T00:02:09.307185+00:00 linux kernel: snd_hda_codec_idt hdaudioC0D0:    dig-in=0x11
+2026-04-06T00:02:09.307185+00:00 linux kernel: input: HDA Intel Mic as /devices/pci0000:00/0000:00:02.0/sound/card0/input3
+2026-04-06T00:02:09.307186+00:00 linux kernel: input: HDA Intel Line as /devices/pci0000:00/0000:00:02.0/sound/card0/input4
+2026-04-06T00:02:09.307186+00:00 linux kernel: input: HDA Intel Speaker Front as /devices/pci0000:00/0000:00:02.0/sound/card0/input5
+2026-04-06T00:02:09.307186+00:00 linux kernel: input: HDA Intel Speaker CLFE as /devices/pci0000:00/0000:00:02.0/sound/card0/input6
+2026-04-06T00:02:09.307187+00:00 linux kernel: input: HDA Intel Front Headphone as /devices/pci0000:00/0000:00:02.0/sound/card0/input7
+2026-04-06T00:02:09.307188+00:00 linux kernel: input: HDA Intel SPDIF In as /devices/pci0000:00/0000:00:02.0/sound/card0/input8
+2026-04-06T00:02:09.307188+00:00 linux kernel: audit: type=1400 audit(1775433728.894:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=691 comm="apparmor_parser"
+2026-04-06T00:02:09.307188+00:00 linux kernel: audit: type=1400 audit(1775433728.894:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=692 comm="apparmor_parser"
+2026-04-06T00:02:09.307189+00:00 linux kernel: audit: type=1400 audit(1775433728.896:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=694 comm="apparmor_parser"
+2026-04-06T00:02:09.307190+00:00 linux kernel: audit: type=1400 audit(1775433728.897:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=695 comm="apparmor_parser"
+2026-04-06T00:02:09.307190+00:00 linux kernel: audit: type=1400 audit(1775433728.898:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=696 comm="apparmor_parser"
+2026-04-06T00:02:09.307190+00:00 linux kernel: audit: type=1400 audit(1775433728.898:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=697 comm="apparmor_parser"
+2026-04-06T00:02:09.307191+00:00 linux kernel: audit: type=1400 audit(1775433728.900:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=698 comm="apparmor_parser"
+2026-04-06T00:02:09.307191+00:00 linux kernel: audit: type=1400 audit(1775433728.900:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=699 comm="apparmor_parser"
+2026-04-06T00:02:09.307192+00:00 linux kernel: audit: type=1400 audit(1775433728.900:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=700 comm="apparmor_parser"
+2026-04-06T00:02:09.307192+00:00 linux kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+2026-04-06T00:02:09.307192+00:00 linux kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+2026-04-06T00:02:09.307193+00:00 linux kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+2026-04-06T00:02:09.422795+00:00 linux kernel: loop13: detected capacity change from 0 to 8
+2026-04-06T00:02:09.422801+00:00 linux kernel: NET: Registered PF_QIPCRTR protocol family
+2026-04-06T00:02:09.763539+00:00 linux kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-04-06T00:04:22.327522+00:00 linux kernel: rfkill: input handler disabled
+2026-04-06T00:04:37.974400+00:00 linux kernel: rfkill: input handler enabled
+2026-04-06T00:04:38.785400+00:00 linux kernel: rfkill: input handler disabled
+2026-04-06T00:04:38.985272+00:00 linux kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+2026-04-06T00:04:38.985277+00:00 linux kernel: ISO 9660 Extensions: RRIP_1991A
+2026-04-06T00:32:26.139298+00:00 linux kernel: sched: RT throttling activated

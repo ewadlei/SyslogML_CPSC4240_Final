@@ -1,4 +1,5 @@
 import re
+from datetime import datetime
 
 log_pattern = re.compile(r'(\S+)\s+(\S+)\s+([^\[\s]+)(?:\[(\d+)\])?:\s+(.*)')
 
@@ -6,7 +7,7 @@ def parse_log(line):
     match = log_pattern.match(line)
     if match: 
         return {
-            "timestamp": match.group(1),
+            "timestamp": datetime.fromisoformat(match.group(1)),
             "host": match.group(2),
             "process": match.group(3),
             "pid": match.group(4),

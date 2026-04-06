@@ -1,11 +1,44 @@
 from parser import parse_log
 from sklearn.feature_extraction.text import TfidfVectorizer 
 from sklearn.preprocessing import OneHotEncoder
-from scipy.sparse import hstack
+from scipy.sparse import hstack, csr_matrix
+import time
+from collections import defaultdict
 
+
+failed_attempts = defaultdict(list)
+process_activity = defaultdict(list)
+
+def extract_behavior_features(log):
+    current_time = time.time()
+    msg = log["message"].lower()
+    process = log["process"]
+
+    key = "auth_fail"
+
+    if "failed password" in msg or "authentication failure" in msg:
+        failed_attempts[key].append(current_time)
+
+    failed_attempts[key] = [
+            t for t in failed_attempts[key]
+            if current_time -t < 60 
+    ]
+
+    failed_count_60s = len(failed_attempts[key])
+
+    process_activity[process].append(current_time)
+
+    process_activity[process] = [
+            t for t in process_activity[process]
+            if current_time -t < 60
+    ]
+    
+    process_count_60s = len(process_activity[process])
+
+    return [float(failed_count_60s), float(process_count_60s)]
 def load_logs(file):
     logs = []
-    
+
     with open(file) as f:
         for line in f:
             parsed = parse_log(line)
@@ -27,5 +60,12 @@ def encode_process(logs):
     X_proc = encoder.fit_transform(processes)
 
     return X_proc, encoder
-def combine_features(X_text, X_proc):
-    return hstack([X_text, X_proc])
+def combine_features(X_text, X_proc, logs):
+    behavior_features = []
+
+    for log in logs: 
+        bf = extract_behavior_features(log)
+        behavior_features.append(bf)
+    X_behavior = csr_matrix(behavior_features)
+
+    return hstack([X_text, X_proc, X_behavior])
