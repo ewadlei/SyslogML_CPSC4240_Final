@@ -16,7 +16,14 @@ def extract_behavior_features(log):
 
     key = "auth_fail"
 
-    if "failed password" in msg or "authentication failure" in msg:
+    is_auth_failure = int(
+            "failed password" in msg or 
+            "authentication failure" in msg or
+            "incorrect password" in msg or
+            "incorrect password attempts" in msg
+            )
+
+    if is_auth_failure:
         failed_attempts[key].append(current_time)
 
     failed_attempts[key] = [
@@ -25,7 +32,7 @@ def extract_behavior_features(log):
     ]
 
     failed_count_60s = len(failed_attempts[key])
-
+    failed_count_60s = failed_count_60s ** 2
     process_activity[process].append(current_time)
 
     process_activity[process] = [
@@ -35,7 +42,11 @@ def extract_behavior_features(log):
     
     process_count_60s = len(process_activity[process])
 
-    return [float(failed_count_60s), float(process_count_60s)]
+    return [
+            float(failed_count_60s),
+            float(process_count_60s),
+            float(is_auth_failure)
+            ]
 def load_logs(file):
     logs = []
 
@@ -68,7 +79,7 @@ def combine_features(X_text, X_proc, logs):
         behavior_features.append(bf)
 
     behavior_features = np.array(behavior_features, dtype = float)
-    behavior_features *= 100
+    behavior_features *= 200
     X_behavior = csr_matrix(behavior_features)
 
     return hstack([X_text, X_proc, X_behavior])

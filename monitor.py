@@ -51,7 +51,9 @@ while True:
         
     pred, score = predict_log(parsed)
     print(f"[{process}] score={score:.3f} | {parsed['message']}")
+    
+    SECURITY_PROCESSES = {"sudo", "sshd", "login", "su"}
 
-    if pred == -1 or score < -0.02:
+    if (pred == -1 or score < 0) and process in SECURITY_PROCESSES:
         print(f"Alert [{process}] (score={score:.3f}): {parsed['message']}")
     time.sleep(0.2)

@@ -1,7 +1,7 @@
-from sklearn.ensemble import IsolationForest
+from sklearn.svm import OneClassSVM
 
 def train_model(X):
-    model = IsolationForest(contamination=0.01, random_state=42)
+    model = OneClassSVM(nu=0.01, kernel='rbf', gamma='scale')
     model.fit(X)
     return model
 

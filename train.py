@@ -6,7 +6,7 @@ failed_attempts.clear()
 process_activity.clear()
 
 #load logs 
-logs = load_logs("training_logs.txt")
+logs = load_logs("clean_logs.txt")
 logs = sorted(logs, key=lambda x: x["timestamp"])
 
 #Extract features
