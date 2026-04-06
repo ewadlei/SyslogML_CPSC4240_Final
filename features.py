@@ -10,7 +10,7 @@ failed_attempts = defaultdict(list)
 process_activity = defaultdict(list)
 
 def extract_behavior_features(log):
-    current_time = time.time()
+    current_time = log["timestamp"]
     msg = log["message"].lower()
     process = log["process"]
 
@@ -66,6 +66,9 @@ def combine_features(X_text, X_proc, logs):
     for log in logs: 
         bf = extract_behavior_features(log)
         behavior_features.append(bf)
+
+    behavior_features = np.array(behavior_features, dtype = float)
+    behavior_features *= 10
     X_behavior = csr_matrix(behavior_features)
 
     return hstack([X_text, X_proc, X_behavior])

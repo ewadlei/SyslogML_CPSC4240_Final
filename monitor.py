@@ -13,6 +13,9 @@ encoder = joblib.load("encoder.pkl")
 
 print("SyslogML monitor started... Waiting for logs")
 
+failed_attempts.clear()
+process_activity.clear()
+
 def predict_log(log):
     msg_vec = vectorizer.transform([log["message"]])
     proc_vec = encoder.transform([[log["process"]]])
@@ -28,7 +31,7 @@ def predict_log(log):
 
     return pred, score
 proc = subprocess.Popen(
-        ["journalctl", "f"],
+        ["journalctl", "-f"],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True
