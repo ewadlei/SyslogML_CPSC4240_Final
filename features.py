@@ -8,6 +8,7 @@ import numpy as np
 
 failed_attempts = defaultdict(list)
 process_activity = defaultdict(list)
+service_restarts = defaultdict(list)
 
 def extract_behavior_features(log):
     current_time = log["timestamp"]
@@ -15,13 +16,30 @@ def extract_behavior_features(log):
     process = log["process"]
 
     key = "auth_fail"
-
+    
+    is_restart = int(
+            "restart" in msg or
+            "failed" in msg and "service" in msg or
+            "start request repeated too quickly" in msg or
+            "scheduled restart job" in msg
+    )
     is_auth_failure = int(
             "failed password" in msg or 
             "authentication failure" in msg or
             "incorrect password" in msg or
-            "incorrect password attempts" in msg
-            )
+            "incorrect password attempts" in msg or 
+            "invalid user" in msg
+    )
+
+    if is_restart:
+        service_restarts[process].append(current_time)
+
+    service_restarts[process] = [
+            t for t in service_restarts[process]
+            if current_time -t < 60
+    ]
+    
+    restart_count_60s = len(service_restarts[process])
 
     if is_auth_failure:
         failed_attempts[key].append(current_time)
@@ -45,8 +63,9 @@ def extract_behavior_features(log):
     return [
             float(failed_count_60s),
             float(process_count_60s),
-            float(is_auth_failure)
-            ]
+            float(is_auth_failure),
+            float(restart_count_60s)
+    ]
 def load_logs(file):
     logs = []
 
@@ -59,7 +78,7 @@ def load_logs(file):
 
 def extract_text_features(logs):
     messages = [log["message"] for log in logs]
-    vectorizer = TfidfVectorizer(max_features=500)
+    vectorizer = TfidfVectorizer(max_features=50)
     X_text = vectorizer.fit_transform(messages)
 
     return X_text, vectorizer
