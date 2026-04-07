@@ -43,6 +43,8 @@ def extract_behavior_features(log):
 
     if is_auth_failure:
         failed_attempts[key].append(current_time)
+    if "session opened" in msg or "accepted password" in msg:
+        failed_attempts[key] =[]
 
     failed_attempts[key] = [
             t for t in failed_attempts[key]

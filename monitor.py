@@ -5,6 +5,7 @@ import time
 from collections import defaultdict
 from features import *
 import subprocess
+import numpy as np
 
 #load trained objexts
 model = joblib.load("model.pkl")
@@ -21,9 +22,9 @@ def predict_log(log):
     proc_vec = encoder.transform([[log["process"]]])
 
     bf = extract_behavior_features(log)
-    print("Behavior features:", bf)
+    #print("Behavior features:", bf)
     bf_scaled = np.array(bf) * 200
-    bf_vec = csr_matrix([bf])
+    bf_vec = csr_matrix([bf_scaled])
 
     features = hstack([msg_vec, proc_vec, bf_vec])
 
@@ -38,17 +39,18 @@ proc = subprocess.Popen(
         text=True
         )
 start_time = time.time()
-WARMPUP_SECONDS = 5
+WARMUP_SECONDS = 5
+warmed_up = False
 
 while True:
     current_time = time.time()
     if current_time - start_time < WARMUP_SECONDS:
         continue
-    if current_time - start_time >= WARMPUP_SECONDS and not warmed_up:
+    if current_time - start_time >= WARMUP_SECONDS and not warmed_up:
         failed_attempts.clear()
         process_activity.clear()
         service_restarts.clear()
-        warmped_up = True
+        warmed_up = True
 
     line = proc.stdout.readline()
 
@@ -56,22 +58,23 @@ while True:
         continue
         
     parsed = parse_log(line)
-    print("RAW:", line)
+    #print("RAW:", line)
     if not parsed:
         continue
     
     process = parsed["process"]
         
     pred, score, bf = predict_log(parsed)
-    print(f"[{process}] score={score:.3f} | {parsed['message']}")
+    #print(f"[{process}] score={score:.3f} | {parsed['message']}")
     
     SECURITY_PROCESSES = {"sudo", "sshd", "login", "su", "systemd"}
 
     if (
         (pred == -1 or score < 0)
-        and (process in SECURITY_PROCESSES
-             and bf[0] > 1)
-        or bf[3] > 2
+        and(
+            (process in SECURITY_PROCESSES and bf[0] > 1)
+            or bf[3] > 2
+        )
     ):
        print(f"Alert [{process}] (score={score:.3f}): {parsed['message']}")
     time.sleep(0.2)
